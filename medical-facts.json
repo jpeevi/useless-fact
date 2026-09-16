@@ -4193,16 +4193,700 @@
     "topic": "Metabolic",
     "fact": "Severe hypoglycemia can cause confusion, seizures, or coma."
   },
+{
+  "id": 700,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "👣❤️"
+},
+{
+  "id": 701,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "❤️U"
+},
+{
+  "id": 702,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🫶"
+},
+{
+  "id": 703,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "👀✨"
+},
+{
+  "id": 704,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🥹🫶"
+},
+{
+  "id": 705,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🌚❤️"
+},
+{
+  "id": 706,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🫵❤️"
+},
+{
+  "id": 707,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🧠💗"
+},
+{
+  "id": 708,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🩺💘"
+},
+{
+  "id": 709,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🫀✨"
+},
+{
+  "id": 710,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🥺👉👈"
+},
+{
+  "id": 711,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🧀❤️"
+},
+{
+  "id": 712,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "🌸🫶"
+},
+{
+  "id": 713,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "💫❤️"
+},
+{
+  "id": 714,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "😌💖"
+},
+{
+  "id": 715,
+  "subject": "🧀",
+  "topic": "🧀",
+  "fact": "❤️"
+},
   {
-    "id": 700,
-    "subject": "🧀",
-    "topic": "🧀",
-    "fact": "👣❤️"
-  },
-    {
-    "id": 701,
-    "subject": "🧀",
-    "topic": "🧀",
-    "fact": "❤️U"
-  }
+  "id": 716,
+  "subject": "Anatomy",
+  "topic": "Neuroanatomy",
+  "fact": "The corpus callosum is the largest commissural fiber tract connecting the cerebral hemispheres."
+},
+{
+  "id": 717,
+  "subject": "Anatomy",
+  "topic": "Head and neck",
+  "fact": "The ophthalmic artery is a branch of the internal carotid artery."
+},
+{
+  "id": 718,
+  "subject": "Anatomy",
+  "topic": "Abdomen",
+  "fact": "The splenic vein runs posterior to the pancreas."
+},
+{
+  "id": 719,
+  "subject": "Anatomy",
+  "topic": "Thorax",
+  "fact": "The right atrium receives blood from the superior vena cava, inferior vena cava, and coronary sinus."
+},
+{
+  "id": 720,
+  "subject": "Anatomy",
+  "topic": "Lower limb",
+  "fact": "The dorsalis pedis artery is the continuation of the anterior tibial artery."
+},
+{
+  "id": 721,
+  "subject": "Physiology",
+  "topic": "Cardiovascular",
+  "fact": "Preload is related to ventricular end-diastolic volume and wall stretch."
+},
+{
+  "id": 722,
+  "subject": "Physiology",
+  "topic": "Cardiovascular",
+  "fact": "Afterload is the resistance the ventricle must overcome to eject blood."
+},
+{
+  "id": 723,
+  "subject": "Physiology",
+  "topic": "Respiratory",
+  "fact": "Functional residual capacity is the volume remaining in the lungs after a normal expiration."
+},
+{
+  "id": 724,
+  "subject": "Physiology",
+  "topic": "Respiratory",
+  "fact": "Vital capacity is the maximum volume exhaled after a maximal inspiration."
+},
+{
+  "id": 725,
+  "subject": "Physiology",
+  "topic": "Renal",
+  "fact": "The descending limb of the loop of Henle is relatively permeable to water."
+},
+{
+  "id": 726,
+  "subject": "Physiology",
+  "topic": "Renal",
+  "fact": "The thick ascending limb of the loop of Henle is impermeable to water."
+},
+{
+  "id": 727,
+  "subject": "Physiology",
+  "topic": "Endocrine",
+  "fact": "Aldosterone is produced in the zona glomerulosa of the adrenal cortex."
+},
+{
+  "id": 728,
+  "subject": "Physiology",
+  "topic": "Endocrine",
+  "fact": "Cortisol is produced mainly in the zona fasciculata of the adrenal cortex."
+},
+{
+  "id": 729,
+  "subject": "Biochemistry",
+  "topic": "Metabolism",
+  "fact": "The rate-limiting enzyme of glycolysis is phosphofructokinase-1."
+},
+{
+  "id": 730,
+  "subject": "Biochemistry",
+  "topic": "Metabolism",
+  "fact": "Glucose-6-phosphatase is present in liver but absent from skeletal muscle."
+},
+{
+  "id": 731,
+  "subject": "Biochemistry",
+  "topic": "Vitamins",
+  "fact": "Vitamin E functions mainly as a lipid-soluble antioxidant."
+},
+{
+  "id": 732,
+  "subject": "Biochemistry",
+  "topic": "Genetics",
+  "fact": "A silent mutation changes a codon without changing the encoded amino acid."
+},
+{
+  "id": 733,
+  "subject": "Biochemistry",
+  "topic": "Proteins",
+  "fact": "Hemoglobin A is composed of two alpha and two beta globin chains."
+},
+{
+  "id": 734,
+  "subject": "Pathology",
+  "topic": "Inflammation",
+  "fact": "Eosinophils are commonly associated with parasitic infections and allergic disorders."
+},
+{
+  "id": 735,
+  "subject": "Pathology",
+  "topic": "Inflammation",
+  "fact": "Basophils and mast cells release histamine during immediate hypersensitivity reactions."
+},
+{
+  "id": 736,
+  "subject": "Pathology",
+  "topic": "Neoplasia",
+  "fact": "Tumor grading describes microscopic differentiation, while staging describes extent of spread."
+},
+{
+  "id": 737,
+  "subject": "Pathology",
+  "topic": "Hematology",
+  "fact": "Thalassemias result from reduced synthesis of alpha or beta globin chains."
+},
+{
+  "id": 738,
+  "subject": "Pathology",
+  "topic": "Cardiovascular",
+  "fact": "Left-sided heart failure commonly causes pulmonary edema."
+},
+{
+  "id": 739,
+  "subject": "Pathology",
+  "topic": "Cardiovascular",
+  "fact": "Right-sided heart failure commonly causes systemic venous congestion."
+},
+{
+  "id": 740,
+  "subject": "Pathology",
+  "topic": "Liver",
+  "fact": "Fatty change in the liver is called hepatic steatosis."
+},
+{
+  "id": 741,
+  "subject": "Pharmacology",
+  "topic": "Autonomic",
+  "fact": "Clonidine reduces sympathetic outflow through central alpha-2 receptor agonism."
+},
+{
+  "id": 742,
+  "subject": "Pharmacology",
+  "topic": "Cardiovascular",
+  "fact": "Aspirin irreversibly inhibits platelet cyclooxygenase."
+},
+{
+  "id": 743,
+  "subject": "Pharmacology",
+  "topic": "Cardiovascular",
+  "fact": "Clopidogrel inhibits the platelet P2Y12 ADP receptor."
+},
+{
+  "id": 744,
+  "subject": "Pharmacology",
+  "topic": "Antimicrobials",
+  "fact": "Linezolid inhibits bacterial protein synthesis by binding the 50S ribosomal subunit."
+},
+{
+  "id": 745,
+  "subject": "Pharmacology",
+  "topic": "Antimicrobials",
+  "fact": "Daptomycin disrupts the bacterial cell membrane."
+},
+{
+  "id": 746,
+  "subject": "Pharmacology",
+  "topic": "CNS",
+  "fact": "Lamotrigine inhibits voltage-sensitive sodium channels."
+},
+{
+  "id": 747,
+  "subject": "Pharmacology",
+  "topic": "Endocrine",
+  "fact": "Propylthiouracil inhibits thyroid peroxidase and peripheral conversion of T4 to T3."
+},
+{
+  "id": 748,
+  "subject": "Microbiology",
+  "topic": "Bacteriology",
+  "fact": "Legionella pneumophila is associated with atypical pneumonia."
+},
+{
+  "id": 749,
+  "subject": "Microbiology",
+  "topic": "Bacteriology",
+  "fact": "Mycoplasma pneumoniae lacks a cell wall."
+},
+{
+  "id": 750,
+  "subject": "Microbiology",
+  "topic": "Bacteriology",
+  "fact": "Treponema pallidum is the spirochete that causes syphilis."
+},
+{
+  "id": 751,
+  "subject": "Microbiology",
+  "topic": "Virology",
+  "fact": "Adenoviruses are nonenveloped double-stranded DNA viruses."
+},
+{
+  "id": 752,
+  "subject": "Microbiology",
+  "topic": "Virology",
+  "fact": "Rubella infection during pregnancy can cause congenital rubella syndrome."
+},
+{
+  "id": 753,
+  "subject": "Microbiology",
+  "topic": "Parasitology",
+  "fact": "Toxoplasma gondii can cause congenital infection when acquired during pregnancy."
+},
+{
+  "id": 754,
+  "subject": "Microbiology",
+  "topic": "Mycology",
+  "fact": "Pneumocystis jirovecii can cause pneumonia in immunocompromised patients."
+},
+{
+  "id": 755,
+  "subject": "Community Medicine",
+  "topic": "Epidemiology",
+  "fact": "Attributable risk is the difference in incidence between exposed and unexposed groups."
+},
+{
+  "id": 756,
+  "subject": "Community Medicine",
+  "topic": "Screening",
+  "fact": "A screening test is generally intended for people without recognized symptoms of the target disease."
+},
+{
+  "id": 757,
+  "subject": "Community Medicine",
+  "topic": "Biostatistics",
+  "fact": "A p-value does not measure the size or clinical importance of an effect."
+},
+{
+  "id": 758,
+  "subject": "Community Medicine",
+  "topic": "Epidemiology",
+  "fact": "Endemic disease is consistently present within a particular population or region."
+},
+{
+  "id": 759,
+  "subject": "Community Medicine",
+  "topic": "Epidemiology",
+  "fact": "A pandemic is an epidemic that spreads across multiple countries or continents."
+},
+{
+  "id": 760,
+  "subject": "Medicine",
+  "topic": "Cardiology",
+  "fact": "A third heart sound can occur with rapid ventricular filling and may indicate volume overload in adults."
+},
+{
+  "id": 761,
+  "subject": "Medicine",
+  "topic": "Cardiology",
+  "fact": "A fourth heart sound is associated with atrial contraction against a stiff ventricle."
+},
+{
+  "id": 762,
+  "subject": "Medicine",
+  "topic": "Respiratory",
+  "fact": "Bronchiectasis involves permanent abnormal dilation of bronchi."
+},
+{
+  "id": 763,
+  "subject": "Medicine",
+  "topic": "Respiratory",
+  "fact": "Sarcoidosis can cause bilateral hilar lymphadenopathy."
+},
+{
+  "id": 764,
+  "subject": "Medicine",
+  "topic": "Endocrinology",
+  "fact": "Hyperparathyroidism can cause hypercalcemia."
+},
+{
+  "id": 765,
+  "subject": "Medicine",
+  "topic": "Endocrinology",
+  "fact": "Pheochromocytoma is a catecholamine-secreting tumor of chromaffin cells."
+},
+{
+  "id": 766,
+  "subject": "Medicine",
+  "topic": "Gastroenterology",
+  "fact": "Achalasia is characterized by impaired lower esophageal sphincter relaxation."
+},
+{
+  "id": 767,
+  "subject": "Medicine",
+  "topic": "Gastroenterology",
+  "fact": "Hepatitis can produce elevated aminotransferase levels."
+},
+{
+  "id": 768,
+  "subject": "Medicine",
+  "topic": "Neurology",
+  "fact": "Multiple sclerosis is an inflammatory demyelinating disease of the central nervous system."
+},
+{
+  "id": 769,
+  "subject": "Medicine",
+  "topic": "Neurology",
+  "fact": "Bell palsy is an acute peripheral facial nerve palsy."
+},
+{
+  "id": 770,
+  "subject": "Medicine",
+  "topic": "Rheumatology",
+  "fact": "Ankylosing spondylitis commonly affects the sacroiliac joints and axial skeleton."
+},
+{
+  "id": 771,
+  "subject": "Medicine",
+  "topic": "Renal",
+  "fact": "Hematuria may originate from anywhere along the urinary tract."
+},
+{
+  "id": 772,
+  "subject": "Medicine",
+  "topic": "Hematology",
+  "fact": "Macrocytosis can occur with vitamin B12 deficiency, folate deficiency, liver disease, and some medications."
+},
+{
+  "id": 773,
+  "subject": "Surgery",
+  "topic": "Abdomen",
+  "fact": "Murphy sign is associated with acute cholecystitis."
+},
+{
+  "id": 774,
+  "subject": "Surgery",
+  "topic": "Abdomen",
+  "fact": "McBurney point tenderness is classically associated with appendicitis."
+},
+{
+  "id": 775,
+  "subject": "Surgery",
+  "topic": "Vascular",
+  "fact": "A carotid bruit may indicate turbulent flow from carotid artery narrowing."
+},
+{
+  "id": 776,
+  "subject": "Surgery",
+  "topic": "Urology",
+  "fact": "Hematuria is a common presenting feature of bladder cancer."
+},
+{
+  "id": 777,
+  "subject": "Surgery",
+  "topic": "Thyroid",
+  "fact": "A rapidly enlarging thyroid mass can threaten the airway."
+},
+{
+  "id": 778,
+  "subject": "Pediatrics",
+  "topic": "Respiratory",
+  "fact": "Asthma is one of the most common chronic respiratory diseases in children."
+},
+{
+  "id": 779,
+  "subject": "Pediatrics",
+  "topic": "Cardiology",
+  "fact": "A patent foramen ovale is persistence of an opening between the atria after birth."
+},
+{
+  "id": 780,
+  "subject": "Pediatrics",
+  "topic": "Infectious disease",
+  "fact": "Roseola commonly causes several days of high fever followed by a rash as the fever resolves."
+},
+{
+  "id": 781,
+  "subject": "Pediatrics",
+  "topic": "Neurology",
+  "fact": "Absence seizures cause brief episodes of impaired awareness."
+},
+{
+  "id": 782,
+  "subject": "Pediatrics",
+  "topic": "GI",
+  "fact": "Meconium ileus is strongly associated with cystic fibrosis."
+},
+{
+  "id": 783,
+  "subject": "Obstetrics & Gynecology",
+  "topic": "Obstetrics",
+  "fact": "The placenta produces progesterone during pregnancy."
+},
+{
+  "id": 784,
+  "subject": "Obstetrics & Gynecology",
+  "topic": "Obstetrics",
+  "fact": "Folic acid supplementation reduces the risk of neural tube defects."
+},
+{
+  "id": 785,
+  "subject": "Obstetrics & Gynecology",
+  "topic": "Gynecology",
+  "fact": "Endometrial cancer commonly presents with abnormal uterine bleeding."
+},
+{
+  "id": 786,
+  "subject": "Obstetrics & Gynecology",
+  "topic": "Gynecology",
+  "fact": "The ovaries produce estrogen, progesterone, and inhibin."
+},
+{
+  "id": 787,
+  "subject": "ENT",
+  "topic": "Ear",
+  "fact": "The cochlea is responsible for hearing."
+},
+{
+  "id": 788,
+  "subject": "ENT",
+  "topic": "Ear",
+  "fact": "The semicircular canals detect angular acceleration of the head."
+},
+{
+  "id": 789,
+  "subject": "ENT",
+  "topic": "Nose",
+  "fact": "The olfactory nerve carries the sense of smell."
+},
+{
+  "id": 790,
+  "subject": "Ophthalmology",
+  "topic": "Retina",
+  "fact": "Rods are highly sensitive to dim light."
+},
+{
+  "id": 791,
+  "subject": "Ophthalmology",
+  "topic": "Retina",
+  "fact": "Cones mediate color vision and high visual acuity."
+},
+{
+  "id": 792,
+  "subject": "Ophthalmology",
+  "topic": "Refraction",
+  "fact": "Astigmatism results from unequal curvature of the cornea or lens."
+},
+{
+  "id": 793,
+  "subject": "Dermatology",
+  "topic": "Skin",
+  "fact": "The stratum corneum forms the outermost layer of the epidermis."
+},
+{
+  "id": 794,
+  "subject": "Dermatology",
+  "topic": "Infection",
+  "fact": "Herpes zoster results from reactivation of latent varicella-zoster virus."
+},
+{
+  "id": 795,
+  "subject": "Dermatology",
+  "topic": "Cancer",
+  "fact": "Sun exposure is an important risk factor for several forms of skin cancer."
+},
+{
+  "id": 796,
+  "subject": "Psychiatry",
+  "topic": "Mood disorders",
+  "fact": "Bipolar disorder includes episodes of mania or hypomania and often depressive episodes."
+},
+{
+  "id": 797,
+  "subject": "Psychiatry",
+  "topic": "Substance use",
+  "fact": "Nicotine dependence is reinforced by activation of nicotinic acetylcholine receptors."
+},
+{
+  "id": 798,
+  "subject": "Psychiatry",
+  "topic": "Neurocognitive",
+  "fact": "Alzheimer disease is the most common cause of dementia."
+},
+{
+  "id": 799,
+  "subject": "Radiology",
+  "topic": "CT",
+  "fact": "Acute intracranial hemorrhage is usually hyperdense on noncontrast CT."
+},
+{
+  "id": 800,
+  "subject": "Radiology",
+  "topic": "MRI",
+  "fact": "MRI is particularly useful for imaging the brain, spinal cord, and soft tissues."
+},
+{
+  "id": 801,
+  "subject": "Radiology",
+  "topic": "Ultrasound",
+  "fact": "Gallstones often produce posterior acoustic shadowing on ultrasound."
+},
+{
+  "id": 802,
+  "subject": "Forensic Medicine",
+  "topic": "Ethics",
+  "fact": "Confidentiality may be breached when required by law or to prevent serious harm in specific circumstances."
+},
+{
+  "id": 803,
+  "subject": "Forensic Medicine",
+  "topic": "Documentation",
+  "fact": "Clinical notes should be clear, factual, dated, and attributable to the author."
+},
+{
+  "id": 804,
+  "subject": "Orthopedics",
+  "topic": "Fractures",
+  "fact": "A greenstick fracture is an incomplete fracture seen mainly in children."
+},
+{
+  "id": 805,
+  "subject": "Orthopedics",
+  "topic": "Spine",
+  "fact": "Cauda equina syndrome can cause saddle anesthesia and bladder dysfunction."
+},
+{
+  "id": 806,
+  "subject": "Orthopedics",
+  "topic": "Shoulder",
+  "fact": "Anterior dislocation is the most common type of shoulder dislocation."
+},
+{
+  "id": 807,
+  "subject": "Anesthesiology",
+  "topic": "Airway",
+  "fact": "The Mallampati classification is one component of airway assessment."
+},
+{
+  "id": 808,
+  "subject": "Anesthesiology",
+  "topic": "Monitoring",
+  "fact": "Pulse oximetry does not directly measure ventilation."
+},
+{
+  "id": 809,
+  "subject": "Anesthesiology",
+  "topic": "Regional anesthesia",
+  "fact": "Spinal anesthesia usually produces a rapid and dense neuraxial block."
+},
+{
+  "id": 810,
+  "subject": "Emergency Medicine",
+  "topic": "Resuscitation",
+  "fact": "Ventricular fibrillation is a shockable cardiac-arrest rhythm."
+},
+{
+  "id": 811,
+  "subject": "Emergency Medicine",
+  "topic": "Resuscitation",
+  "fact": "Pulseless ventricular tachycardia is a shockable cardiac-arrest rhythm."
+},
+{
+  "id": 812,
+  "subject": "Emergency Medicine",
+  "topic": "Shock",
+  "fact": "Cardiogenic shock results from failure of the heart to maintain adequate output."
+},
+{
+  "id": 813,
+  "subject": "Emergency Medicine",
+  "topic": "Shock",
+  "fact": "Obstructive shock can result from conditions such as cardiac tamponade or tension pneumothorax."
+},
+{
+  "id": 814,
+  "subject": "Emergency Medicine",
+  "topic": "Neurology",
+  "fact": "The FAST mnemonic helps recognize common signs of stroke."
+},
+{
+  "id": 815,
+  "subject": "Emergency Medicine",
+  "topic": "Toxicology",
+  "fact": "Opioid overdose commonly causes respiratory depression, reduced consciousness, and pinpoint pupils."
+}
 ]
