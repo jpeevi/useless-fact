@@ -23,7 +23,7 @@
 
     .card {
       width: min(100%, 560px);
-      background: white;
+      background: #fff;
       padding: 32px;
       border-radius: 18px;
       box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
@@ -40,13 +40,37 @@
       font-size: 1.1rem;
     }
 
+    .fact-container {
+      height: 180px;
+      overflow: hidden;
+    }
+
     .fact {
-      min-height: 100px;
+      height: 100%;
+      display: flex;
+      align-items: center;
       padding: 20px;
       border-radius: 12px;
       background: #f8f8f8;
       font-size: 1.2rem;
       line-height: 1.6;
+
+      opacity: 1;
+      transform: translateY(0);
+
+      transition:
+        opacity 250ms ease,
+        transform 250ms ease;
+    }
+
+    .fact.leaving {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    .fact.entering {
+      opacity: 0;
+      transform: translateY(10px);
     }
 
     button {
@@ -55,19 +79,51 @@
       padding: 14px 18px;
       border: 0;
       border-radius: 10px;
-      font-size: 1rem;
-      cursor: pointer;
       background: #222;
       color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition:
+        transform 150ms ease,
+        opacity 150ms ease;
     }
 
-    button:hover {
-      opacity: 0.9;
+    button:hover:not(:disabled) {
+      transform: translateY(-1px);
+    }
+
+    button:active:not(:disabled) {
+      transform: translateY(0);
     }
 
     button:disabled {
       cursor: not-allowed;
       opacity: 0.6;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 24px;
+      }
+
+      .fact-container {
+        height: 220px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      .fact {
+        font-size: 1.05rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .fact,
+      button {
+        transition: none;
+      }
     }
   </style>
 </head>
@@ -80,8 +136,10 @@
       here's a useless fact
     </p>
 
-    <div class="fact" id="fact">
-      Loading...
+    <div class="fact-container">
+      <div class="fact" id="fact">
+        Loading...
+      </div>
     </div>
 
     <button id="refreshButton">
@@ -96,8 +154,27 @@
     const factElement = document.querySelector("#fact");
     const refreshButton = document.querySelector("#refreshButton");
 
+    const wait = (ms) =>
+      new Promise(resolve => setTimeout(resolve, ms));
+
+    const changeFact = async (text) => {
+      factElement.classList.add("leaving");
+
+      await wait(250);
+
+      factElement.textContent = text;
+
+      factElement.classList.remove("leaving");
+      factElement.classList.add("entering");
+
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          factElement.classList.remove("entering");
+        });
+      });
+    };
+
     const loadFact = async () => {
-      factElement.textContent = "Loading...";
       refreshButton.disabled = true;
 
       try {
@@ -109,10 +186,12 @@
 
         const data = await response.json();
 
-        factElement.textContent = data.text;
+        await changeFact(data.text);
       } catch (error) {
-        factElement.textContent =
-          "Couldn't load a useless fact. Try again.";
+        await changeFact(
+          "Couldn't load a useless fact. Try again."
+        );
+
         console.error(error);
       } finally {
         refreshButton.disabled = false;
