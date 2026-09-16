@@ -1,98 +1,4196 @@
 [
-  {"id":1,"subject":"Anatomy","topic":"Upper limb","fact":"The median nerve passes through the carpal tunnel, while its palmar cutaneous branch travels superficial to the flexor retinaculum."},
-  {"id":2,"subject":"Anatomy","topic":"Upper limb","fact":"The ulnar nerve passes posterior to the medial epicondyle of the humerus, making it vulnerable at the elbow."},
-  {"id":3,"subject":"Anatomy","topic":"Lower limb","fact":"The common fibular nerve winds around the neck of the fibula and is vulnerable to injury at that site."},
-  {"id":4,"subject":"Anatomy","topic":"Thorax","fact":"The phrenic nerve runs anterior to the root of the lung, while the vagus nerve runs posterior to it."},
-  {"id":5,"subject":"Anatomy","topic":"Abdomen","fact":"The portal vein is formed mainly by the union of the superior mesenteric and splenic veins."},
-  {"id":6,"subject":"Physiology","topic":"Cardiovascular","fact":"The sinoatrial node is the normal pacemaker because it has the highest spontaneous firing rate in the heart."},
-  {"id":7,"subject":"Physiology","topic":"Cardiovascular","fact":"Cardiac output equals heart rate multiplied by stroke volume."},
-  {"id":8,"subject":"Physiology","topic":"Respiratory","fact":"Most carbon dioxide in blood is transported as bicarbonate rather than as dissolved gas."},
-  {"id":9,"subject":"Physiology","topic":"Respiratory","fact":"Pulmonary surfactant lowers alveolar surface tension and helps prevent alveolar collapse."},
-  {"id":10,"subject":"Physiology","topic":"Renal","fact":"The kidneys help regulate acid-base balance by reabsorbing bicarbonate and excreting hydrogen ions."},
-  {"id":11,"subject":"Biochemistry","topic":"Metabolism","fact":"Glycolysis occurs in the cytosol and converts glucose to pyruvate while generating ATP and NADH."},
-  {"id":12,"subject":"Biochemistry","topic":"Metabolism","fact":"The citric acid cycle occurs mainly in the mitochondrial matrix."},
-  {"id":13,"subject":"Biochemistry","topic":"Vitamins","fact":"Vitamin B12 deficiency can cause megaloblastic anemia together with neurologic abnormalities."},
-  {"id":14,"subject":"Biochemistry","topic":"Vitamins","fact":"Vitamin C is required for hydroxylation reactions involved in collagen synthesis."},
-  {"id":15,"subject":"Biochemistry","topic":"Enzymes","fact":"Competitive inhibition usually increases apparent Km without changing Vmax."},
-  {"id":16,"subject":"Pathology","topic":"Cell injury","fact":"Coagulative necrosis is typical of ischemic injury in most solid organs except the brain."},
-  {"id":17,"subject":"Pathology","topic":"Cell injury","fact":"Liquefactive necrosis is classically seen in brain infarcts and many bacterial abscesses."},
-  {"id":18,"subject":"Pathology","topic":"Inflammation","fact":"Neutrophils are usually the predominant cells in early acute inflammation."},
-  {"id":19,"subject":"Pathology","topic":"Hematology","fact":"Iron deficiency anemia is typically microcytic and hypochromic."},
-  {"id":20,"subject":"Pathology","topic":"Renal","fact":"Nephrotic syndrome is characterized by heavy proteinuria, hypoalbuminemia, edema, and often hyperlipidemia."},
-  {"id":21,"subject":"Pharmacology","topic":"Autonomic","fact":"Atropine is a competitive antagonist at muscarinic acetylcholine receptors."},
-  {"id":22,"subject":"Pharmacology","topic":"Cardiovascular","fact":"ACE inhibitors reduce angiotensin II formation and also decrease bradykinin breakdown."},
-  {"id":23,"subject":"Pharmacology","topic":"Diuretics","fact":"Loop diuretics inhibit the sodium-potassium-2 chloride cotransporter in the thick ascending limb of the loop of Henle."},
-  {"id":24,"subject":"Pharmacology","topic":"Antimicrobials","fact":"Beta-lactam antibiotics inhibit bacterial cell wall synthesis by binding penicillin-binding proteins."},
-  {"id":25,"subject":"Pharmacology","topic":"CNS","fact":"Benzodiazepines enhance the effect of GABA at GABA-A receptors."},
-  {"id":26,"subject":"Microbiology","topic":"Bacteriology","fact":"Staphylococcus aureus is catalase-positive and coagulase-positive."},
-  {"id":27,"subject":"Microbiology","topic":"Bacteriology","fact":"Streptococcus pyogenes is a group A beta-hemolytic streptococcus."},
-  {"id":28,"subject":"Microbiology","topic":"Bacteriology","fact":"Mycobacteria are acid-fast because of lipid-rich mycolic acids in their cell walls."},
-  {"id":29,"subject":"Microbiology","topic":"Virology","fact":"Influenza viruses have segmented RNA genomes, which allows reassortment."},
-  {"id":30,"subject":"Microbiology","topic":"Immunology","fact":"IgM is usually the first antibody class produced during a primary immune response."},
-  {"id":31,"subject":"Community Medicine","topic":"Epidemiology","fact":"Incidence measures new cases occurring in a population over a specified period."},
-  {"id":32,"subject":"Community Medicine","topic":"Epidemiology","fact":"Prevalence measures how much disease exists in a population at a particular time or over a period."},
-  {"id":33,"subject":"Community Medicine","topic":"Screening","fact":"Positive predictive value generally increases as disease prevalence increases, assuming test sensitivity and specificity stay the same."},
-  {"id":34,"subject":"Community Medicine","topic":"Prevention","fact":"Primary prevention aims to prevent disease before it occurs."},
-  {"id":35,"subject":"Community Medicine","topic":"Study design","fact":"Case-control studies typically begin with outcome status and then assess previous exposures."},
-  {"id":36,"subject":"Medicine","topic":"Cardiology","fact":"Atrial fibrillation produces an irregularly irregular ventricular rhythm."},
-  {"id":37,"subject":"Medicine","topic":"Respiratory","fact":"Asthma is characterized by variable airflow obstruction and airway hyperresponsiveness."},
-  {"id":38,"subject":"Medicine","topic":"Endocrinology","fact":"Type 1 diabetes mellitus results from autoimmune destruction of pancreatic beta cells."},
-  {"id":39,"subject":"Medicine","topic":"Neurology","fact":"An upper motor neuron lesion commonly causes weakness with increased tone and hyperreflexia below the lesion."},
-  {"id":40,"subject":"Medicine","topic":"Rheumatology","fact":"Rheumatoid arthritis commonly affects small joints symmetrically and is associated with prolonged morning stiffness."},
-  {"id":41,"subject":"Surgery","topic":"General surgery","fact":"A strangulated hernia has compromised blood supply and requires urgent surgical assessment."},
-  {"id":42,"subject":"Surgery","topic":"Abdomen","fact":"Appendicitis classically begins with vague periumbilical pain that later localizes to the right lower quadrant."},
-  {"id":43,"subject":"Surgery","topic":"Hepatobiliary","fact":"Gallstones can obstruct the cystic duct and cause acute cholecystitis."},
-  {"id":44,"subject":"Surgery","topic":"Trauma","fact":"Initial trauma assessment prioritizes airway, breathing, circulation, disability, and exposure."},
-  {"id":45,"subject":"Surgery","topic":"Vascular","fact":"Acute limb ischemia is classically remembered by the six Ps: pain, pallor, pulselessness, paresthesia, paralysis, and poikilothermia."},
-  {"id":46,"subject":"Pediatrics","topic":"Neonatology","fact":"Physiologic jaundice in newborns is related partly to increased bilirubin production and immature hepatic conjugation."},
-  {"id":47,"subject":"Pediatrics","topic":"Development","fact":"Developmental assessment considers gross motor, fine motor, language, and social domains."},
-  {"id":48,"subject":"Pediatrics","topic":"Respiratory","fact":"Bronchiolitis most often affects infants and is commonly caused by respiratory syncytial virus."},
-  {"id":49,"subject":"Pediatrics","topic":"Growth","fact":"Growth in children is best assessed by plotting measurements serially on age- and sex-appropriate growth charts."},
-  {"id":50,"subject":"Pediatrics","topic":"Nutrition","fact":"Major public-health organizations recommend exclusive breastfeeding for about the first six months of life."},
-  {"id":51,"subject":"Obstetrics & Gynecology","topic":"Obstetrics","fact":"Human chorionic gonadotropin is produced mainly by syncytiotrophoblasts in early pregnancy."},
-  {"id":52,"subject":"Obstetrics & Gynecology","topic":"Obstetrics","fact":"Preeclampsia is new-onset hypertension after 20 weeks of gestation with proteinuria or other evidence of maternal organ dysfunction."},
-  {"id":53,"subject":"Obstetrics & Gynecology","topic":"Gynecology","fact":"Ovulation is triggered by the mid-cycle luteinizing hormone surge."},
-  {"id":54,"subject":"Obstetrics & Gynecology","topic":"Gynecology","fact":"The ampullary portion of the fallopian tube is the most common site of ectopic pregnancy."},
-  {"id":55,"subject":"Obstetrics & Gynecology","topic":"Reproductive endocrinology","fact":"FSH stimulates granulosa cells, while LH stimulates theca cells in the ovarian follicle."},
-  {"id":56,"subject":"ENT","topic":"Ear","fact":"The middle ear communicates with the nasopharynx through the auditory tube."},
-  {"id":57,"subject":"ENT","topic":"Ear","fact":"Conductive hearing loss results from impaired transmission of sound through the external or middle ear."},
-  {"id":58,"subject":"ENT","topic":"Larynx","fact":"The recurrent laryngeal nerve supplies most intrinsic muscles of the larynx."},
-  {"id":59,"subject":"ENT","topic":"Nose","fact":"Kiesselbach area on the anterior nasal septum is a common site of epistaxis."},
-  {"id":60,"subject":"Ophthalmology","topic":"Anatomy","fact":"The optic nerve is cranial nerve II and carries visual information from the retina to the brain."},
-  {"id":61,"subject":"Ophthalmology","topic":"Glaucoma","fact":"Glaucoma is a progressive optic neuropathy involving retinal ganglion cell loss, often associated with elevated intraocular pressure."},
-  {"id":62,"subject":"Ophthalmology","topic":"Cataract","fact":"A cataract is an opacity of the crystalline lens that can reduce visual acuity."},
-  {"id":63,"subject":"Ophthalmology","topic":"Retina","fact":"The macula is responsible for high-acuity central vision."},
-  {"id":64,"subject":"Dermatology","topic":"Skin","fact":"The epidermis is avascular and receives nutrients by diffusion from the underlying dermis."},
-  {"id":65,"subject":"Dermatology","topic":"Inflammatory disease","fact":"Psoriasis commonly produces well-demarcated erythematous plaques with silvery scale."},
-  {"id":66,"subject":"Dermatology","topic":"Infection","fact":"Dermatophytes infect keratinized tissues such as skin, hair, and nails."},
-  {"id":67,"subject":"Dermatology","topic":"Pigmentation","fact":"Melanocytes synthesize melanin and transfer melanosomes to keratinocytes."},
-  {"id":68,"subject":"Psychiatry","topic":"Mood disorders","fact":"Major depressive episodes involve persistent low mood or loss of interest together with other cognitive and physical symptoms."},
-  {"id":69,"subject":"Psychiatry","topic":"Psychosis","fact":"Schizophrenia can involve positive symptoms, negative symptoms, and cognitive impairment."},
-  {"id":70,"subject":"Psychiatry","topic":"Anxiety","fact":"Panic attacks are episodes of intense fear accompanied by prominent physical and cognitive symptoms."},
-  {"id":71,"subject":"Psychiatry","topic":"Pharmacology","fact":"Selective serotonin reuptake inhibitors are widely used first-line treatments for several depressive and anxiety disorders."},
-  {"id":72,"subject":"Radiology","topic":"X-ray","fact":"Air appears dark on a plain radiograph because it attenuates fewer X-rays than soft tissue or bone."},
-  {"id":73,"subject":"Radiology","topic":"CT","fact":"CT uses X-rays to create cross-sectional images and is widely used for rapid assessment of acute conditions."},
-  {"id":74,"subject":"Radiology","topic":"MRI","fact":"MRI does not use ionizing radiation and provides excellent soft-tissue contrast."},
-  {"id":75,"subject":"Radiology","topic":"Ultrasound","fact":"Ultrasound uses high-frequency sound waves and provides real-time imaging without ionizing radiation."},
-  {"id":76,"subject":"Forensic Medicine","topic":"Identification","fact":"Fingerprints are highly individual and remain an important method of personal identification."},
-  {"id":77,"subject":"Forensic Medicine","topic":"Documentation","fact":"Accurate contemporaneous documentation is essential in medicolegal practice."},
-  {"id":78,"subject":"Forensic Medicine","topic":"Ethics","fact":"Valid consent requires capacity, adequate information, and voluntariness."},
-  {"id":79,"subject":"Orthopedics","topic":"Fractures","fact":"Fracture healing progresses through stages that include hematoma formation, callus formation, and remodeling."},
-  {"id":80,"subject":"Orthopedics","topic":"Hip","fact":"Intracapsular fractures of the femoral neck can compromise the blood supply to the femoral head."},
-  {"id":81,"subject":"Orthopedics","topic":"Spine","fact":"The intervertebral disc consists of an outer annulus fibrosus and an inner nucleus pulposus."},
-  {"id":82,"subject":"Orthopedics","topic":"Nerves","fact":"A posterior hip dislocation can injure the sciatic nerve."},
-  {"id":83,"subject":"Anesthesiology","topic":"Airway","fact":"Pre-anesthetic airway assessment helps identify features associated with difficult ventilation or intubation."},
-  {"id":84,"subject":"Anesthesiology","topic":"Local anesthetics","fact":"Local anesthetics block voltage-gated sodium channels and prevent propagation of action potentials."},
-  {"id":85,"subject":"Emergency Medicine","topic":"Resuscitation","fact":"High-quality chest compressions are a core component of cardiopulmonary resuscitation."},
-  {"id":86,"subject":"Emergency Medicine","topic":"Shock","fact":"Shock is a state of inadequate tissue perfusion and may be hypovolemic, distributive, cardiogenic, or obstructive."},
-  {"id":87,"subject":"Anatomy","topic":"Neuroanatomy","fact":"Broca area is classically located in the dominant inferior frontal gyrus and is involved in motor speech production."},
-  {"id":88,"subject":"Physiology","topic":"Hematology","fact":"Erythropoietin is produced mainly by peritubular interstitial cells in the kidney in response to hypoxia."},
-  {"id":89,"subject":"Biochemistry","topic":"Proteins","fact":"Albumin is the major plasma protein contributing to plasma oncotic pressure."},
-  {"id":90,"subject":"Pathology","topic":"Neoplasia","fact":"Metastasis is a defining feature of malignant tumors."},
-  {"id":91,"subject":"Pharmacology","topic":"Endocrine","fact":"Metformin reduces hepatic glucose production and improves insulin sensitivity."},
-  {"id":92,"subject":"Microbiology","topic":"Parasitology","fact":"Malaria is transmitted by female Anopheles mosquitoes carrying Plasmodium parasites."},
-  {"id":93,"subject":"Medicine","topic":"Gastroenterology","fact":"Portal hypertension can lead to esophageal varices, splenomegaly, and ascites."},
-  {"id":94,"subject":"Surgery","topic":"Breast","fact":"Most lymphatic drainage of the breast is to the axillary lymph nodes."},
-  {"id":95,"subject":"Pediatrics","topic":"Cardiology","fact":"A ventricular septal defect is one of the most common congenital heart defects."},
-  {"id":96,"subject":"Obstetrics & Gynecology","topic":"Placenta","fact":"The placenta acts as the interface for exchange of gases, nutrients, and waste products between maternal and fetal circulations."}
+  {
+    "id": 1,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The axillary nerve winds around the surgical neck of the humerus."
+  },
+  {
+    "id": 2,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The radial nerve travels in the radial groove of the humerus."
+  },
+  {
+    "id": 3,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The ulnar nerve passes posterior to the medial epicondyle."
+  },
+  {
+    "id": 4,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The median nerve passes through the carpal tunnel."
+  },
+  {
+    "id": 5,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The musculocutaneous nerve pierces coracobrachialis."
+  },
+  {
+    "id": 6,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The long thoracic nerve supplies serratus anterior."
+  },
+  {
+    "id": 7,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The suprascapular nerve supplies supraspinatus and infraspinatus."
+  },
+  {
+    "id": 8,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The posterior interosseous nerve is a deep branch of the radial nerve."
+  },
+  {
+    "id": 9,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The brachial artery usually bifurcates into radial and ulnar arteries near the elbow."
+  },
+  {
+    "id": 10,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The cephalic vein runs in the deltopectoral groove."
+  },
+  {
+    "id": 11,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The basilic vein contributes to formation of the axillary vein."
+  },
+  {
+    "id": 12,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The anatomical snuffbox contains the radial artery."
+  },
+  {
+    "id": 13,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The scaphoid receives much of its blood supply from distal branches of the radial artery."
+  },
+  {
+    "id": 14,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The rotator cuff is formed by supraspinatus, infraspinatus, teres minor, and subscapularis."
+  },
+  {
+    "id": 15,
+    "subject": "Anatomy",
+    "topic": "Upper limb",
+    "fact": "The deltoid is the principal abductor of the arm beyond the initial phase of abduction."
+  },
+  {
+    "id": 16,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The femoral nerve lies lateral to the femoral artery."
+  },
+  {
+    "id": 17,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The common fibular nerve winds around the neck of the fibula."
+  },
+  {
+    "id": 18,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The tibial nerve passes posterior to the medial malleolus."
+  },
+  {
+    "id": 19,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The sciatic nerve is the largest nerve in the body."
+  },
+  {
+    "id": 20,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The obturator nerve supplies the main adductor compartment of the thigh."
+  },
+  {
+    "id": 21,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The superior gluteal nerve supplies gluteus medius and gluteus minimus."
+  },
+  {
+    "id": 22,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The inferior gluteal nerve supplies gluteus maximus."
+  },
+  {
+    "id": 23,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The femoral artery becomes the popliteal artery after passing through the adductor hiatus."
+  },
+  {
+    "id": 24,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The great saphenous vein drains into the femoral vein."
+  },
+  {
+    "id": 25,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The small saphenous vein usually drains into the popliteal vein."
+  },
+  {
+    "id": 26,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The anterior cruciate ligament limits anterior translation of the tibia."
+  },
+  {
+    "id": 27,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The posterior cruciate ligament limits posterior translation of the tibia."
+  },
+  {
+    "id": 28,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The medial meniscus is less mobile than the lateral meniscus."
+  },
+  {
+    "id": 29,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The Achilles tendon is formed mainly by gastrocnemius and soleus."
+  },
+  {
+    "id": 30,
+    "subject": "Anatomy",
+    "topic": "Lower limb",
+    "fact": "The plantar fascia helps support the longitudinal arch of the foot."
+  },
+  {
+    "id": 31,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The phrenic nerve passes anterior to the root of the lung."
+  },
+  {
+    "id": 32,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The vagus nerve passes posterior to the root of the lung."
+  },
+  {
+    "id": 33,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The right main bronchus is wider, shorter, and more vertical than the left."
+  },
+  {
+    "id": 34,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The left recurrent laryngeal nerve loops under the aortic arch."
+  },
+  {
+    "id": 35,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The right recurrent laryngeal nerve loops under the right subclavian artery."
+  },
+  {
+    "id": 36,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The thoracic duct drains into the left venous angle."
+  },
+  {
+    "id": 37,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The azygos vein arches over the right lung root before entering the superior vena cava."
+  },
+  {
+    "id": 38,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The internal thoracic artery arises from the subclavian artery."
+  },
+  {
+    "id": 39,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The pericardium is innervated for pain mainly by the phrenic nerves."
+  },
+  {
+    "id": 40,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The heart lies mainly in the middle mediastinum."
+  },
+  {
+    "id": 41,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The left ventricle forms most of the left cardiac border."
+  },
+  {
+    "id": 42,
+    "subject": "Anatomy",
+    "topic": "Thorax",
+    "fact": "The right ventricle forms most of the anterior surface of the heart."
+  },
+  {
+    "id": 43,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The portal vein is formed mainly by the superior mesenteric and splenic veins."
+  },
+  {
+    "id": 44,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The celiac trunk supplies foregut derivatives."
+  },
+  {
+    "id": 45,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The superior mesenteric artery supplies most midgut derivatives."
+  },
+  {
+    "id": 46,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The inferior mesenteric artery supplies most hindgut derivatives."
+  },
+  {
+    "id": 47,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The appendix is usually supplied by the appendicular artery."
+  },
+  {
+    "id": 48,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The splenic artery runs along the superior border of the pancreas."
+  },
+  {
+    "id": 49,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The common bile duct passes posterior to the first part of the duodenum."
+  },
+  {
+    "id": 50,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The left renal vein passes anterior to the aorta."
+  },
+  {
+    "id": 51,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The right renal artery passes posterior to the inferior vena cava."
+  },
+  {
+    "id": 52,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The kidneys are retroperitoneal organs."
+  },
+  {
+    "id": 53,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The pancreas is secondarily retroperitoneal except for its tail."
+  },
+  {
+    "id": 54,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The spleen lies mainly under ribs 9 to 11 on the left."
+  },
+  {
+    "id": 55,
+    "subject": "Anatomy",
+    "topic": "Abdomen",
+    "fact": "The inguinal ligament extends from the anterior superior iliac spine to the pubic tubercle."
+  },
+  {
+    "id": 56,
+    "subject": "Anatomy",
+    "topic": "Pelvis",
+    "fact": "The ureter passes beneath the uterine artery near the cervix."
+  },
+  {
+    "id": 57,
+    "subject": "Anatomy",
+    "topic": "Pelvis",
+    "fact": "The pudendal nerve arises from S2 to S4."
+  },
+  {
+    "id": 58,
+    "subject": "Anatomy",
+    "topic": "Pelvis",
+    "fact": "The pelvic splanchnic nerves carry parasympathetic fibers from S2 to S4."
+  },
+  {
+    "id": 59,
+    "subject": "Anatomy",
+    "topic": "Pelvis",
+    "fact": "The rectum begins at approximately the level of S3."
+  },
+  {
+    "id": 60,
+    "subject": "Anatomy",
+    "topic": "Pelvis",
+    "fact": "The prostate lies inferior to the urinary bladder."
+  },
+  {
+    "id": 61,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The facial nerve exits the skull through the stylomastoid foramen."
+  },
+  {
+    "id": 62,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The trigeminal nerve provides most somatic sensation from the face."
+  },
+  {
+    "id": 63,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The hypoglossal nerve supplies most tongue muscles."
+  },
+  {
+    "id": 64,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The carotid sheath contains the carotid artery, internal jugular vein, and vagus nerve."
+  },
+  {
+    "id": 65,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The accessory nerve supplies sternocleidomastoid and trapezius."
+  },
+  {
+    "id": 66,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The optic nerve passes through the optic canal."
+  },
+  {
+    "id": 67,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The maxillary division of the trigeminal nerve passes through foramen rotundum."
+  },
+  {
+    "id": 68,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The mandibular division of the trigeminal nerve passes through foramen ovale."
+  },
+  {
+    "id": 69,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The middle meningeal artery enters the cranial cavity through foramen spinosum."
+  },
+  {
+    "id": 70,
+    "subject": "Anatomy",
+    "topic": "Head and neck",
+    "fact": "The pituitary gland lies in the sella turcica."
+  },
+  {
+    "id": 71,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "The corticospinal tracts decussate mainly in the lower medulla."
+  },
+  {
+    "id": 72,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "The dorsal columns carry vibration, proprioception, and fine touch."
+  },
+  {
+    "id": 73,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "The spinothalamic tract carries pain and temperature sensation."
+  },
+  {
+    "id": 74,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "Broca area is usually located in the dominant inferior frontal gyrus."
+  },
+  {
+    "id": 75,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "Wernicke area is usually located in the dominant posterior temporal region."
+  },
+  {
+    "id": 76,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "The internal capsule contains densely packed ascending and descending fibers."
+  },
+  {
+    "id": 77,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "The cerebellum is important for coordination and balance."
+  },
+  {
+    "id": 78,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "The substantia nigra contains dopaminergic neurons important for movement."
+  },
+  {
+    "id": 79,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "The hippocampus is important for formation of new declarative memories."
+  },
+  {
+    "id": 80,
+    "subject": "Anatomy",
+    "topic": "Neuroanatomy",
+    "fact": "The hypothalamus regulates autonomic and endocrine functions."
+  },
+  {
+    "id": 81,
+    "subject": "Anatomy",
+    "topic": "Back",
+    "fact": "The spinal cord usually ends near L1-L2 in adults."
+  },
+  {
+    "id": 82,
+    "subject": "Anatomy",
+    "topic": "Back",
+    "fact": "Lumbar puncture is commonly performed below the termination of the spinal cord."
+  },
+  {
+    "id": 83,
+    "subject": "Anatomy",
+    "topic": "Embryology",
+    "fact": "The neural tube gives rise to the central nervous system."
+  },
+  {
+    "id": 84,
+    "subject": "Anatomy",
+    "topic": "Embryology",
+    "fact": "Neural crest cells contribute to peripheral ganglia and melanocytes."
+  },
+  {
+    "id": 85,
+    "subject": "Anatomy",
+    "topic": "Embryology",
+    "fact": "The notochord contributes to the nucleus pulposus."
+  },
+  {
+    "id": 86,
+    "subject": "Anatomy",
+    "topic": "Embryology",
+    "fact": "The foregut gives rise to the stomach, proximal duodenum, liver, pancreas, and related structures."
+  },
+  {
+    "id": 87,
+    "subject": "Anatomy",
+    "topic": "Embryology",
+    "fact": "The midgut temporarily herniates into the umbilical cord during development."
+  },
+  {
+    "id": 88,
+    "subject": "Anatomy",
+    "topic": "Embryology",
+    "fact": "The ductus arteriosus connects the pulmonary trunk to the aorta in fetal life."
+  },
+  {
+    "id": 89,
+    "subject": "Anatomy",
+    "topic": "Embryology",
+    "fact": "The foramen ovale allows right-to-left atrial flow in fetal circulation."
+  },
+  {
+    "id": 90,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "Cardiac output equals heart rate multiplied by stroke volume."
+  },
+  {
+    "id": 91,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "The sinoatrial node is the normal pacemaker of the heart."
+  },
+  {
+    "id": 92,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "Mean arterial pressure depends largely on cardiac output and systemic vascular resistance."
+  },
+  {
+    "id": 93,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "The Frank-Starling mechanism links increased ventricular filling to increased stroke volume."
+  },
+  {
+    "id": 94,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "Sympathetic stimulation increases heart rate and myocardial contractility."
+  },
+  {
+    "id": 95,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "Parasympathetic stimulation slows the heart mainly through the vagus nerve."
+  },
+  {
+    "id": 96,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "The first heart sound is associated mainly with closure of the mitral and tricuspid valves."
+  },
+  {
+    "id": 97,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "The second heart sound is associated mainly with closure of the aortic and pulmonary valves."
+  },
+  {
+    "id": 98,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "Coronary blood flow to the left ventricle is greatest during diastole."
+  },
+  {
+    "id": 99,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "Baroreceptors in the carotid sinus and aortic arch respond to changes in arterial pressure."
+  },
+  {
+    "id": 100,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "Pulse pressure is the difference between systolic and diastolic pressure."
+  },
+  {
+    "id": 101,
+    "subject": "Physiology",
+    "topic": "Cardiovascular",
+    "fact": "Venous return is an important determinant of cardiac preload."
+  },
+  {
+    "id": 102,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "Most carbon dioxide in blood is transported as bicarbonate."
+  },
+  {
+    "id": 103,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "Pulmonary surfactant reduces alveolar surface tension."
+  },
+  {
+    "id": 104,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "Type II pneumocytes produce surfactant."
+  },
+  {
+    "id": 105,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "The diaphragm is the main muscle of quiet inspiration."
+  },
+  {
+    "id": 106,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "Hypoventilation tends to raise arterial carbon dioxide tension."
+  },
+  {
+    "id": 107,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "Hyperventilation tends to lower arterial carbon dioxide tension."
+  },
+  {
+    "id": 108,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "Oxygen binds reversibly to heme groups in hemoglobin."
+  },
+  {
+    "id": 109,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "The oxygen-hemoglobin dissociation curve shifts right with increased temperature, carbon dioxide, acidity, or 2,3-BPG."
+  },
+  {
+    "id": 110,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "The medulla contains important respiratory rhythm-generating networks."
+  },
+  {
+    "id": 111,
+    "subject": "Physiology",
+    "topic": "Respiratory",
+    "fact": "Anatomic dead space includes conducting airways that do not participate in gas exchange."
+  },
+  {
+    "id": 112,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "The nephron is the functional unit of the kidney."
+  },
+  {
+    "id": 113,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "Most filtered glucose is reabsorbed in the proximal tubule."
+  },
+  {
+    "id": 114,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "The loop of Henle contributes to the medullary osmotic gradient."
+  },
+  {
+    "id": 115,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "Aldosterone increases sodium reabsorption in the distal nephron."
+  },
+  {
+    "id": 116,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "ADH increases water permeability of collecting ducts."
+  },
+  {
+    "id": 117,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "The kidneys regulate acid-base balance by handling bicarbonate and hydrogen ions."
+  },
+  {
+    "id": 118,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "Renin is released by juxtaglomerular cells."
+  },
+  {
+    "id": 119,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "The macula densa senses tubular sodium chloride delivery."
+  },
+  {
+    "id": 120,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "Inulin clearance can be used experimentally to estimate glomerular filtration rate."
+  },
+  {
+    "id": 121,
+    "subject": "Physiology",
+    "topic": "Renal",
+    "fact": "Creatinine clearance is used clinically as an approximate measure of glomerular filtration."
+  },
+  {
+    "id": 122,
+    "subject": "Physiology",
+    "topic": "Endocrine",
+    "fact": "Insulin lowers blood glucose and promotes energy storage."
+  },
+  {
+    "id": 123,
+    "subject": "Physiology",
+    "topic": "Endocrine",
+    "fact": "Glucagon raises blood glucose partly by stimulating hepatic glycogenolysis."
+  },
+  {
+    "id": 124,
+    "subject": "Physiology",
+    "topic": "Endocrine",
+    "fact": "Parathyroid hormone raises serum calcium."
+  },
+  {
+    "id": 125,
+    "subject": "Physiology",
+    "topic": "Endocrine",
+    "fact": "Vitamin D increases intestinal calcium absorption."
+  },
+  {
+    "id": 126,
+    "subject": "Physiology",
+    "topic": "Endocrine",
+    "fact": "TSH stimulates thyroid hormone synthesis and release."
+  },
+  {
+    "id": 127,
+    "subject": "Physiology",
+    "topic": "Endocrine",
+    "fact": "ACTH stimulates cortisol production by the adrenal cortex."
+  },
+  {
+    "id": 128,
+    "subject": "Physiology",
+    "topic": "Endocrine",
+    "fact": "Cortisol follows a circadian rhythm with higher levels around waking."
+  },
+  {
+    "id": 129,
+    "subject": "Physiology",
+    "topic": "Endocrine",
+    "fact": "Oxytocin stimulates uterine contraction and milk ejection."
+  },
+  {
+    "id": 130,
+    "subject": "Physiology",
+    "topic": "Endocrine",
+    "fact": "Prolactin promotes milk production."
+  },
+  {
+    "id": 131,
+    "subject": "Physiology",
+    "topic": "Neurophysiology",
+    "fact": "Saltatory conduction occurs in myelinated axons."
+  },
+  {
+    "id": 132,
+    "subject": "Physiology",
+    "topic": "Neurophysiology",
+    "fact": "Action potentials follow the all-or-none principle."
+  },
+  {
+    "id": 133,
+    "subject": "Physiology",
+    "topic": "Neurophysiology",
+    "fact": "The resting membrane potential is strongly influenced by potassium permeability."
+  },
+  {
+    "id": 134,
+    "subject": "Physiology",
+    "topic": "Neurophysiology",
+    "fact": "Acetylcholine is the neurotransmitter at the neuromuscular junction."
+  },
+  {
+    "id": 135,
+    "subject": "Physiology",
+    "topic": "Neurophysiology",
+    "fact": "GABA is the major inhibitory neurotransmitter in the adult brain."
+  },
+  {
+    "id": 136,
+    "subject": "Physiology",
+    "topic": "Neurophysiology",
+    "fact": "Glutamate is the major excitatory neurotransmitter in the central nervous system."
+  },
+  {
+    "id": 137,
+    "subject": "Physiology",
+    "topic": "Neurophysiology",
+    "fact": "The stretch reflex is monosynaptic at its core."
+  },
+  {
+    "id": 138,
+    "subject": "Physiology",
+    "topic": "Hematology",
+    "fact": "Erythropoietin is produced mainly by the kidney."
+  },
+  {
+    "id": 139,
+    "subject": "Physiology",
+    "topic": "Hematology",
+    "fact": "Platelets are derived from megakaryocytes."
+  },
+  {
+    "id": 140,
+    "subject": "Physiology",
+    "topic": "Hematology",
+    "fact": "Hemoglobin carries most oxygen in blood."
+  },
+  {
+    "id": 141,
+    "subject": "Physiology",
+    "topic": "Hematology",
+    "fact": "Fibrin stabilizes the platelet plug during coagulation."
+  },
+  {
+    "id": 142,
+    "subject": "Physiology",
+    "topic": "Hematology",
+    "fact": "Plasmin degrades fibrin during fibrinolysis."
+  },
+  {
+    "id": 143,
+    "subject": "Physiology",
+    "topic": "Hematology",
+    "fact": "ABO antigens are expressed on red blood cell membranes."
+  },
+  {
+    "id": 144,
+    "subject": "Physiology",
+    "topic": "GI",
+    "fact": "Gastrin stimulates gastric acid secretion."
+  },
+  {
+    "id": 145,
+    "subject": "Physiology",
+    "topic": "GI",
+    "fact": "Secretin stimulates pancreatic bicarbonate secretion."
+  },
+  {
+    "id": 146,
+    "subject": "Physiology",
+    "topic": "GI",
+    "fact": "Cholecystokinin stimulates gallbladder contraction and pancreatic enzyme secretion."
+  },
+  {
+    "id": 147,
+    "subject": "Physiology",
+    "topic": "GI",
+    "fact": "Intrinsic factor is required for vitamin B12 absorption in the terminal ileum."
+  },
+  {
+    "id": 148,
+    "subject": "Physiology",
+    "topic": "GI",
+    "fact": "Bile salts facilitate digestion and absorption of dietary fats."
+  },
+  {
+    "id": 149,
+    "subject": "Physiology",
+    "topic": "GI",
+    "fact": "Most nutrient absorption occurs in the small intestine."
+  },
+  {
+    "id": 150,
+    "subject": "Physiology",
+    "topic": "GI",
+    "fact": "The colon absorbs water and electrolytes."
+  },
+  {
+    "id": 151,
+    "subject": "Physiology",
+    "topic": "Muscle",
+    "fact": "Skeletal muscle contraction is triggered by calcium binding to troponin C."
+  },
+  {
+    "id": 152,
+    "subject": "Physiology",
+    "topic": "Muscle",
+    "fact": "Smooth muscle contraction depends on calcium-calmodulin activation of myosin light-chain kinase."
+  },
+  {
+    "id": 153,
+    "subject": "Physiology",
+    "topic": "Muscle",
+    "fact": "Cardiac muscle cells are electrically coupled through gap junctions."
+  },
+  {
+    "id": 154,
+    "subject": "Physiology",
+    "topic": "Temperature",
+    "fact": "The hypothalamus is central to thermoregulation."
+  },
+  {
+    "id": 155,
+    "subject": "Physiology",
+    "topic": "Exercise",
+    "fact": "During exercise, cardiac output rises to meet increased metabolic demand."
+  },
+  {
+    "id": 156,
+    "subject": "Physiology",
+    "topic": "Acid-base",
+    "fact": "Respiratory acidosis results from primary elevation of carbon dioxide."
+  },
+  {
+    "id": 157,
+    "subject": "Physiology",
+    "topic": "Acid-base",
+    "fact": "Respiratory alkalosis results from primary reduction of carbon dioxide."
+  },
+  {
+    "id": 158,
+    "subject": "Physiology",
+    "topic": "Acid-base",
+    "fact": "Metabolic acidosis involves a primary reduction in bicarbonate."
+  },
+  {
+    "id": 159,
+    "subject": "Physiology",
+    "topic": "Acid-base",
+    "fact": "Metabolic alkalosis involves a primary elevation in bicarbonate."
+  },
+  {
+    "id": 160,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "Glycolysis occurs in the cytosol."
+  },
+  {
+    "id": 161,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "The citric acid cycle occurs mainly in the mitochondrial matrix."
+  },
+  {
+    "id": 162,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "Oxidative phosphorylation occurs across the inner mitochondrial membrane."
+  },
+  {
+    "id": 163,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "Glycogen is stored mainly in liver and skeletal muscle."
+  },
+  {
+    "id": 164,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "Ketone bodies are produced mainly in the liver."
+  },
+  {
+    "id": 165,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "The urea cycle converts toxic nitrogen to urea."
+  },
+  {
+    "id": 166,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "Beta-oxidation breaks fatty acids down to acetyl-CoA."
+  },
+  {
+    "id": 167,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "The pentose phosphate pathway generates NADPH and ribose-5-phosphate."
+  },
+  {
+    "id": 168,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "Pyruvate can be reduced to lactate under anaerobic conditions."
+  },
+  {
+    "id": 169,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "Gluconeogenesis occurs mainly in the liver and, during prolonged fasting, the kidney."
+  },
+  {
+    "id": 170,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "Glycogen phosphorylase releases glucose-1-phosphate from glycogen."
+  },
+  {
+    "id": 171,
+    "subject": "Biochemistry",
+    "topic": "Metabolism",
+    "fact": "Acetyl-CoA carboxylase catalyzes a key regulated step in fatty acid synthesis."
+  },
+  {
+    "id": 172,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Vitamin B12 deficiency can cause megaloblastic anemia and neurologic abnormalities."
+  },
+  {
+    "id": 173,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Folate deficiency can cause megaloblastic anemia."
+  },
+  {
+    "id": 174,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Vitamin C is required for hydroxylation reactions in collagen synthesis."
+  },
+  {
+    "id": 175,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Vitamin K is required for gamma-carboxylation of several clotting factors."
+  },
+  {
+    "id": 176,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Vitamin D promotes intestinal calcium absorption."
+  },
+  {
+    "id": 177,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Vitamin A is important for vision and epithelial differentiation."
+  },
+  {
+    "id": 178,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Thiamine is a cofactor for several oxidative decarboxylation reactions."
+  },
+  {
+    "id": 179,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Niacin is a precursor of NAD and NADP."
+  },
+  {
+    "id": 180,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Riboflavin is a precursor of FAD and FMN."
+  },
+  {
+    "id": 181,
+    "subject": "Biochemistry",
+    "topic": "Vitamins",
+    "fact": "Pyridoxine is required for many amino-acid metabolism reactions."
+  },
+  {
+    "id": 182,
+    "subject": "Biochemistry",
+    "topic": "Enzymes",
+    "fact": "Competitive inhibition increases apparent Km without changing Vmax."
+  },
+  {
+    "id": 183,
+    "subject": "Biochemistry",
+    "topic": "Enzymes",
+    "fact": "Pure noncompetitive inhibition reduces Vmax without changing Km."
+  },
+  {
+    "id": 184,
+    "subject": "Biochemistry",
+    "topic": "Enzymes",
+    "fact": "Enzymes lower activation energy without changing reaction equilibrium."
+  },
+  {
+    "id": 185,
+    "subject": "Biochemistry",
+    "topic": "Genetics",
+    "fact": "DNA polymerases synthesize DNA in the 5-prime to 3-prime direction."
+  },
+  {
+    "id": 186,
+    "subject": "Biochemistry",
+    "topic": "Genetics",
+    "fact": "RNA polymerase synthesizes RNA from a DNA template."
+  },
+  {
+    "id": 187,
+    "subject": "Biochemistry",
+    "topic": "Genetics",
+    "fact": "Mitochondrial DNA is inherited almost entirely from the mother."
+  },
+  {
+    "id": 188,
+    "subject": "Biochemistry",
+    "topic": "Genetics",
+    "fact": "A codon consists of three nucleotides."
+  },
+  {
+    "id": 189,
+    "subject": "Biochemistry",
+    "topic": "Genetics",
+    "fact": "The genetic code is degenerate because several codons can encode the same amino acid."
+  },
+  {
+    "id": 190,
+    "subject": "Biochemistry",
+    "topic": "Genetics",
+    "fact": "Frameshift mutations result from insertions or deletions not divisible by three."
+  },
+  {
+    "id": 191,
+    "subject": "Biochemistry",
+    "topic": "Genetics",
+    "fact": "A missense mutation changes one amino acid to another."
+  },
+  {
+    "id": 192,
+    "subject": "Biochemistry",
+    "topic": "Genetics",
+    "fact": "A nonsense mutation creates a premature stop codon."
+  },
+  {
+    "id": 193,
+    "subject": "Biochemistry",
+    "topic": "Molecular biology",
+    "fact": "Transcription produces RNA from a DNA template."
+  },
+  {
+    "id": 194,
+    "subject": "Biochemistry",
+    "topic": "Molecular biology",
+    "fact": "Translation occurs on ribosomes."
+  },
+  {
+    "id": 195,
+    "subject": "Biochemistry",
+    "topic": "Molecular biology",
+    "fact": "mRNA carries coding information from DNA to ribosomes."
+  },
+  {
+    "id": 196,
+    "subject": "Biochemistry",
+    "topic": "Molecular biology",
+    "fact": "tRNA carries amino acids to the ribosome."
+  },
+  {
+    "id": 197,
+    "subject": "Biochemistry",
+    "topic": "Molecular biology",
+    "fact": "rRNA forms structural and catalytic components of ribosomes."
+  },
+  {
+    "id": 198,
+    "subject": "Biochemistry",
+    "topic": "Proteins",
+    "fact": "Albumin is the most abundant plasma protein."
+  },
+  {
+    "id": 199,
+    "subject": "Biochemistry",
+    "topic": "Proteins",
+    "fact": "Collagen is the most abundant protein in the human body."
+  },
+  {
+    "id": 200,
+    "subject": "Biochemistry",
+    "topic": "Proteins",
+    "fact": "Hemoglobin is a tetrameric oxygen-binding protein."
+  },
+  {
+    "id": 201,
+    "subject": "Biochemistry",
+    "topic": "Proteins",
+    "fact": "Disulfide bonds can stabilize protein structure."
+  },
+  {
+    "id": 202,
+    "subject": "Biochemistry",
+    "topic": "Lipids",
+    "fact": "Chylomicrons transport dietary triglycerides from the intestine."
+  },
+  {
+    "id": 203,
+    "subject": "Biochemistry",
+    "topic": "Lipids",
+    "fact": "LDL transports cholesterol to peripheral tissues."
+  },
+  {
+    "id": 204,
+    "subject": "Biochemistry",
+    "topic": "Lipids",
+    "fact": "HDL participates in reverse cholesterol transport."
+  },
+  {
+    "id": 205,
+    "subject": "Biochemistry",
+    "topic": "Lipids",
+    "fact": "Bile acids are synthesized from cholesterol."
+  },
+  {
+    "id": 206,
+    "subject": "Biochemistry",
+    "topic": "Acid-base",
+    "fact": "The bicarbonate buffer system is the major extracellular buffer system."
+  },
+  {
+    "id": 207,
+    "subject": "Biochemistry",
+    "topic": "Acid-base",
+    "fact": "Hemoglobin contributes significantly to buffering in blood."
+  },
+  {
+    "id": 208,
+    "subject": "Biochemistry",
+    "topic": "Clinical biochemistry",
+    "fact": "HbA1c reflects average glycemia over roughly the preceding two to three months."
+  },
+  {
+    "id": 209,
+    "subject": "Biochemistry",
+    "topic": "Clinical biochemistry",
+    "fact": "Troponins are sensitive biomarkers of myocardial injury."
+  },
+  {
+    "id": 210,
+    "subject": "Biochemistry",
+    "topic": "Clinical biochemistry",
+    "fact": "Serum creatinine is commonly used to assess renal function."
+  },
+  {
+    "id": 211,
+    "subject": "Biochemistry",
+    "topic": "Clinical biochemistry",
+    "fact": "ALT is more liver-specific than AST."
+  },
+  {
+    "id": 212,
+    "subject": "Biochemistry",
+    "topic": "Clinical biochemistry",
+    "fact": "Alkaline phosphatase can rise in cholestatic liver disease or increased bone turnover."
+  },
+  {
+    "id": 213,
+    "subject": "Biochemistry",
+    "topic": "Clinical biochemistry",
+    "fact": "Unconjugated bilirubin is not water-soluble."
+  },
+  {
+    "id": 214,
+    "subject": "Biochemistry",
+    "topic": "Clinical biochemistry",
+    "fact": "Conjugated bilirubin is water-soluble."
+  },
+  {
+    "id": 215,
+    "subject": "Biochemistry",
+    "topic": "Amino acids",
+    "fact": "Phenylalanine hydroxylase converts phenylalanine to tyrosine."
+  },
+  {
+    "id": 216,
+    "subject": "Biochemistry",
+    "topic": "Amino acids",
+    "fact": "Tyrosine is a precursor of catecholamines and thyroid hormones."
+  },
+  {
+    "id": 217,
+    "subject": "Biochemistry",
+    "topic": "Carbohydrates",
+    "fact": "Insulin promotes GLUT4 translocation in skeletal muscle and adipose tissue."
+  },
+  {
+    "id": 218,
+    "subject": "Biochemistry",
+    "topic": "Carbohydrates",
+    "fact": "Glucokinase is expressed in hepatocytes and pancreatic beta cells."
+  },
+  {
+    "id": 219,
+    "subject": "Biochemistry",
+    "topic": "Nucleotides",
+    "fact": "Purine degradation in humans produces uric acid."
+  },
+  {
+    "id": 220,
+    "subject": "Pathology",
+    "topic": "Cell injury",
+    "fact": "Coagulative necrosis is typical of ischemic injury in most solid organs except the brain."
+  },
+  {
+    "id": 221,
+    "subject": "Pathology",
+    "topic": "Cell injury",
+    "fact": "Liquefactive necrosis is typical of brain infarcts and many bacterial abscesses."
+  },
+  {
+    "id": 222,
+    "subject": "Pathology",
+    "topic": "Cell injury",
+    "fact": "Caseous necrosis is classically associated with tuberculosis."
+  },
+  {
+    "id": 223,
+    "subject": "Pathology",
+    "topic": "Cell injury",
+    "fact": "Fat necrosis can occur in acute pancreatitis."
+  },
+  {
+    "id": 224,
+    "subject": "Pathology",
+    "topic": "Cell injury",
+    "fact": "Apoptosis is programmed cell death without the same inflammatory response as necrosis."
+  },
+  {
+    "id": 225,
+    "subject": "Pathology",
+    "topic": "Cell injury",
+    "fact": "Cellular swelling is a common feature of reversible cell injury."
+  },
+  {
+    "id": 226,
+    "subject": "Pathology",
+    "topic": "Inflammation",
+    "fact": "Neutrophils predominate in early acute inflammation."
+  },
+  {
+    "id": 227,
+    "subject": "Pathology",
+    "topic": "Inflammation",
+    "fact": "Macrophages are prominent in chronic inflammation."
+  },
+  {
+    "id": 228,
+    "subject": "Pathology",
+    "topic": "Inflammation",
+    "fact": "Granulomas are organized collections of activated macrophages."
+  },
+  {
+    "id": 229,
+    "subject": "Pathology",
+    "topic": "Inflammation",
+    "fact": "Histamine increases vascular permeability in acute inflammation."
+  },
+  {
+    "id": 230,
+    "subject": "Pathology",
+    "topic": "Inflammation",
+    "fact": "Prostaglandins contribute to pain and fever."
+  },
+  {
+    "id": 231,
+    "subject": "Pathology",
+    "topic": "Inflammation",
+    "fact": "Leukotrienes can promote bronchoconstriction and vascular permeability."
+  },
+  {
+    "id": 232,
+    "subject": "Pathology",
+    "topic": "Neoplasia",
+    "fact": "Metastasis is a defining feature of malignant tumors."
+  },
+  {
+    "id": 233,
+    "subject": "Pathology",
+    "topic": "Neoplasia",
+    "fact": "Carcinomas arise from epithelial tissues."
+  },
+  {
+    "id": 234,
+    "subject": "Pathology",
+    "topic": "Neoplasia",
+    "fact": "Sarcomas arise from mesenchymal tissues."
+  },
+  {
+    "id": 235,
+    "subject": "Pathology",
+    "topic": "Neoplasia",
+    "fact": "Tumor suppressor genes restrain cell proliferation."
+  },
+  {
+    "id": 236,
+    "subject": "Pathology",
+    "topic": "Neoplasia",
+    "fact": "Oncogenes promote growth or survival when abnormally activated."
+  },
+  {
+    "id": 237,
+    "subject": "Pathology",
+    "topic": "Neoplasia",
+    "fact": "p53 helps arrest the cell cycle after DNA damage."
+  },
+  {
+    "id": 238,
+    "subject": "Pathology",
+    "topic": "Neoplasia",
+    "fact": "Dysplasia describes disordered cell growth and maturation."
+  },
+  {
+    "id": 239,
+    "subject": "Pathology",
+    "topic": "Neoplasia",
+    "fact": "Anaplasia is a feature of poor differentiation in malignant tumors."
+  },
+  {
+    "id": 240,
+    "subject": "Pathology",
+    "topic": "Hematology",
+    "fact": "Iron deficiency anemia is usually microcytic and hypochromic."
+  },
+  {
+    "id": 241,
+    "subject": "Pathology",
+    "topic": "Hematology",
+    "fact": "Megaloblastic anemia is commonly caused by vitamin B12 or folate deficiency."
+  },
+  {
+    "id": 242,
+    "subject": "Pathology",
+    "topic": "Hematology",
+    "fact": "Sickle cell disease results from a mutation in the beta-globin gene."
+  },
+  {
+    "id": 243,
+    "subject": "Pathology",
+    "topic": "Hematology",
+    "fact": "Hereditary spherocytosis is associated with red cell membrane defects."
+  },
+  {
+    "id": 244,
+    "subject": "Pathology",
+    "topic": "Hematology",
+    "fact": "Acute leukemia is characterized by proliferation of immature hematopoietic cells."
+  },
+  {
+    "id": 245,
+    "subject": "Pathology",
+    "topic": "Hematology",
+    "fact": "Multiple myeloma is a plasma-cell neoplasm."
+  },
+  {
+    "id": 246,
+    "subject": "Pathology",
+    "topic": "Hematology",
+    "fact": "Hodgkin lymphoma classically contains Reed-Sternberg cells."
+  },
+  {
+    "id": 247,
+    "subject": "Pathology",
+    "topic": "Cardiovascular",
+    "fact": "Atherosclerosis primarily affects the arterial intima."
+  },
+  {
+    "id": 248,
+    "subject": "Pathology",
+    "topic": "Cardiovascular",
+    "fact": "A thrombus forms within the cardiovascular system during life."
+  },
+  {
+    "id": 249,
+    "subject": "Pathology",
+    "topic": "Cardiovascular",
+    "fact": "An embolus travels through the circulation to lodge at a distant site."
+  },
+  {
+    "id": 250,
+    "subject": "Pathology",
+    "topic": "Cardiovascular",
+    "fact": "Myocardial infarction produces coagulative necrosis of cardiac muscle."
+  },
+  {
+    "id": 251,
+    "subject": "Pathology",
+    "topic": "Cardiovascular",
+    "fact": "Rheumatic fever can lead to chronic valvular heart disease."
+  },
+  {
+    "id": 252,
+    "subject": "Pathology",
+    "topic": "Renal",
+    "fact": "Nephrotic syndrome is characterized by heavy proteinuria and hypoalbuminemia."
+  },
+  {
+    "id": 253,
+    "subject": "Pathology",
+    "topic": "Renal",
+    "fact": "Nephritic syndrome commonly features hematuria and impaired renal function."
+  },
+  {
+    "id": 254,
+    "subject": "Pathology",
+    "topic": "Renal",
+    "fact": "Minimal change disease is a common cause of nephrotic syndrome in children."
+  },
+  {
+    "id": 255,
+    "subject": "Pathology",
+    "topic": "Renal",
+    "fact": "Poststreptococcal glomerulonephritis is an immune-complex mediated nephritic syndrome."
+  },
+  {
+    "id": 256,
+    "subject": "Pathology",
+    "topic": "Renal",
+    "fact": "Diabetic nephropathy can cause nodular glomerulosclerosis."
+  },
+  {
+    "id": 257,
+    "subject": "Pathology",
+    "topic": "Endocrine",
+    "fact": "Papillary thyroid carcinoma often shows nuclear grooves and clearing."
+  },
+  {
+    "id": 258,
+    "subject": "Pathology",
+    "topic": "Endocrine",
+    "fact": "Hashimoto thyroiditis is an autoimmune cause of hypothyroidism."
+  },
+  {
+    "id": 259,
+    "subject": "Pathology",
+    "topic": "Endocrine",
+    "fact": "Graves disease is caused by antibodies stimulating the TSH receptor."
+  },
+  {
+    "id": 260,
+    "subject": "Pathology",
+    "topic": "GI",
+    "fact": "Cirrhosis involves diffuse fibrosis and regenerative nodules."
+  },
+  {
+    "id": 261,
+    "subject": "Pathology",
+    "topic": "GI",
+    "fact": "Barrett esophagus is intestinal metaplasia of the distal esophageal mucosa."
+  },
+  {
+    "id": 262,
+    "subject": "Pathology",
+    "topic": "GI",
+    "fact": "Peptic ulcer disease involves mucosal ulceration in the stomach or duodenum."
+  },
+  {
+    "id": 263,
+    "subject": "Pathology",
+    "topic": "GI",
+    "fact": "Ulcerative colitis is limited to the colon and usually begins in the rectum."
+  },
+  {
+    "id": 264,
+    "subject": "Pathology",
+    "topic": "GI",
+    "fact": "Crohn disease can affect any part of the gastrointestinal tract and is transmural."
+  },
+  {
+    "id": 265,
+    "subject": "Pathology",
+    "topic": "Respiratory",
+    "fact": "Emphysema involves permanent enlargement of airspaces distal to terminal bronchioles."
+  },
+  {
+    "id": 266,
+    "subject": "Pathology",
+    "topic": "Respiratory",
+    "fact": "Chronic bronchitis is defined clinically by chronic productive cough for a specified duration."
+  },
+  {
+    "id": 267,
+    "subject": "Pathology",
+    "topic": "Respiratory",
+    "fact": "Asthma features reversible airflow obstruction and airway hyperresponsiveness."
+  },
+  {
+    "id": 268,
+    "subject": "Pathology",
+    "topic": "Respiratory",
+    "fact": "Lobar pneumonia can produce consolidation of a large portion of a lobe."
+  },
+  {
+    "id": 269,
+    "subject": "Pathology",
+    "topic": "Respiratory",
+    "fact": "Small-cell lung carcinoma is strongly associated with smoking and neuroendocrine differentiation."
+  },
+  {
+    "id": 270,
+    "subject": "Pathology",
+    "topic": "Bone",
+    "fact": "Osteoporosis reduces bone mass without defective mineralization."
+  },
+  {
+    "id": 271,
+    "subject": "Pathology",
+    "topic": "Bone",
+    "fact": "Osteomalacia involves defective mineralization of bone."
+  },
+  {
+    "id": 272,
+    "subject": "Pathology",
+    "topic": "Bone",
+    "fact": "Osteosarcoma commonly arises in metaphyseal regions of long bones."
+  },
+  {
+    "id": 273,
+    "subject": "Pathology",
+    "topic": "Immunopathology",
+    "fact": "Type I hypersensitivity is mediated by IgE."
+  },
+  {
+    "id": 274,
+    "subject": "Pathology",
+    "topic": "Immunopathology",
+    "fact": "Type II hypersensitivity is antibody-mediated against cell-surface or matrix antigens."
+  },
+  {
+    "id": 275,
+    "subject": "Pathology",
+    "topic": "Immunopathology",
+    "fact": "Type III hypersensitivity involves immune-complex deposition."
+  },
+  {
+    "id": 276,
+    "subject": "Pathology",
+    "topic": "Immunopathology",
+    "fact": "Type IV hypersensitivity is T-cell mediated."
+  },
+  {
+    "id": 277,
+    "subject": "Pathology",
+    "topic": "Wound healing",
+    "fact": "Fibroblasts produce collagen during wound healing."
+  },
+  {
+    "id": 278,
+    "subject": "Pathology",
+    "topic": "Wound healing",
+    "fact": "Vitamin C deficiency impairs collagen synthesis and wound healing."
+  },
+  {
+    "id": 279,
+    "subject": "Pathology",
+    "topic": "Breast",
+    "fact": "Invasive ductal carcinoma is the most common invasive breast cancer type."
+  },
+  {
+    "id": 280,
+    "subject": "Pathology",
+    "topic": "CNS",
+    "fact": "Glioblastoma is a highly aggressive primary brain tumor."
+  },
+  {
+    "id": 281,
+    "subject": "Pathology",
+    "topic": "CNS",
+    "fact": "Meningiomas arise from arachnoid cap cells."
+  },
+  {
+    "id": 282,
+    "subject": "Pathology",
+    "topic": "Liver",
+    "fact": "Hepatocellular carcinoma often arises in chronically diseased liver."
+  },
+  {
+    "id": 283,
+    "subject": "Pathology",
+    "topic": "Pancreas",
+    "fact": "Pancreatic adenocarcinoma commonly arises in the head of the pancreas."
+  },
+  {
+    "id": 284,
+    "subject": "Pathology",
+    "topic": "Gynecologic",
+    "fact": "Cervical squamous cell carcinoma is strongly linked to high-risk HPV."
+  },
+  {
+    "id": 285,
+    "subject": "Pathology",
+    "topic": "Gynecologic",
+    "fact": "Endometrial hyperplasia can be associated with unopposed estrogen exposure."
+  },
+  {
+    "id": 286,
+    "subject": "Pathology",
+    "topic": "Skin",
+    "fact": "Basal cell carcinoma rarely metastasizes but can be locally destructive."
+  },
+  {
+    "id": 287,
+    "subject": "Pathology",
+    "topic": "Skin",
+    "fact": "Melanoma has metastatic potential and arises from melanocytes."
+  },
+  {
+    "id": 288,
+    "subject": "Pathology",
+    "topic": "Vascular",
+    "fact": "Aneurysms are localized abnormal dilations of blood vessels."
+  },
+  {
+    "id": 289,
+    "subject": "Pathology",
+    "topic": "Shock",
+    "fact": "Distributive shock is characterized by reduced systemic vascular resistance."
+  },
+  {
+    "id": 290,
+    "subject": "Pharmacology",
+    "topic": "Autonomic",
+    "fact": "Atropine is a competitive muscarinic receptor antagonist."
+  },
+  {
+    "id": 291,
+    "subject": "Pharmacology",
+    "topic": "Autonomic",
+    "fact": "Beta-1 receptor stimulation increases heart rate and contractility."
+  },
+  {
+    "id": 292,
+    "subject": "Pharmacology",
+    "topic": "Autonomic",
+    "fact": "Beta-2 receptor stimulation causes bronchodilation."
+  },
+  {
+    "id": 293,
+    "subject": "Pharmacology",
+    "topic": "Autonomic",
+    "fact": "Alpha-1 receptor stimulation causes vasoconstriction."
+  },
+  {
+    "id": 294,
+    "subject": "Pharmacology",
+    "topic": "Autonomic",
+    "fact": "Neostigmine inhibits acetylcholinesterase."
+  },
+  {
+    "id": 295,
+    "subject": "Pharmacology",
+    "topic": "Autonomic",
+    "fact": "Pilocarpine is a muscarinic receptor agonist."
+  },
+  {
+    "id": 296,
+    "subject": "Pharmacology",
+    "topic": "Autonomic",
+    "fact": "Phenylephrine is primarily an alpha-1 agonist."
+  },
+  {
+    "id": 297,
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "fact": "ACE inhibitors reduce angiotensin II formation."
+  },
+  {
+    "id": 298,
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "fact": "ARBs block angiotensin II AT1 receptors."
+  },
+  {
+    "id": 299,
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "fact": "Loop diuretics inhibit the Na-K-2Cl cotransporter."
+  },
+  {
+    "id": 300,
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "fact": "Thiazide diuretics inhibit the Na-Cl cotransporter in the distal tubule."
+  },
+  {
+    "id": 301,
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "fact": "Spironolactone antagonizes mineralocorticoid receptors."
+  },
+  {
+    "id": 302,
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "fact": "Dihydropyridine calcium-channel blockers act mainly on vascular smooth muscle."
+  },
+  {
+    "id": 303,
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "fact": "Non-dihydropyridine calcium-channel blockers can slow AV nodal conduction."
+  },
+  {
+    "id": 304,
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "fact": "Nitrates cause venodilation and reduce preload."
+  },
+  {
+    "id": 305,
+    "subject": "Pharmacology",
+    "topic": "Cardiovascular",
+    "fact": "Digoxin inhibits the Na-K ATPase."
+  },
+  {
+    "id": 306,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Beta-lactam antibiotics inhibit bacterial cell-wall synthesis."
+  },
+  {
+    "id": 307,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Macrolides bind the 50S ribosomal subunit."
+  },
+  {
+    "id": 308,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Aminoglycosides bind the 30S ribosomal subunit."
+  },
+  {
+    "id": 309,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Tetracyclines bind the 30S ribosomal subunit."
+  },
+  {
+    "id": 310,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Fluoroquinolones inhibit bacterial DNA gyrase and topoisomerase."
+  },
+  {
+    "id": 311,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Vancomycin inhibits bacterial cell-wall synthesis."
+  },
+  {
+    "id": 312,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Metronidazole is active against many anaerobes and certain protozoa."
+  },
+  {
+    "id": 313,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Rifampicin inhibits bacterial DNA-dependent RNA polymerase."
+  },
+  {
+    "id": 314,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Isoniazid inhibits mycolic-acid synthesis in mycobacteria."
+  },
+  {
+    "id": 315,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Ethambutol inhibits arabinosyl transferase in mycobacteria."
+  },
+  {
+    "id": 316,
+    "subject": "Pharmacology",
+    "topic": "Antimicrobials",
+    "fact": "Pyrazinamide is active against mycobacteria in acidic environments."
+  },
+  {
+    "id": 317,
+    "subject": "Pharmacology",
+    "topic": "CNS",
+    "fact": "Benzodiazepines enhance GABA-A receptor activity."
+  },
+  {
+    "id": 318,
+    "subject": "Pharmacology",
+    "topic": "CNS",
+    "fact": "SSRIs inhibit serotonin reuptake."
+  },
+  {
+    "id": 319,
+    "subject": "Pharmacology",
+    "topic": "CNS",
+    "fact": "Levodopa increases central dopamine availability."
+  },
+  {
+    "id": 320,
+    "subject": "Pharmacology",
+    "topic": "CNS",
+    "fact": "Haloperidol is a dopamine D2 receptor antagonist."
+  },
+  {
+    "id": 321,
+    "subject": "Pharmacology",
+    "topic": "CNS",
+    "fact": "Lithium is used as a mood stabilizer."
+  },
+  {
+    "id": 322,
+    "subject": "Pharmacology",
+    "topic": "CNS",
+    "fact": "Valproate has broad-spectrum antiseizure activity."
+  },
+  {
+    "id": 323,
+    "subject": "Pharmacology",
+    "topic": "CNS",
+    "fact": "Carbamazepine blocks voltage-gated sodium channels."
+  },
+  {
+    "id": 324,
+    "subject": "Pharmacology",
+    "topic": "CNS",
+    "fact": "Phenytoin prolongs the inactivated state of voltage-gated sodium channels."
+  },
+  {
+    "id": 325,
+    "subject": "Pharmacology",
+    "topic": "Endocrine",
+    "fact": "Metformin reduces hepatic glucose production."
+  },
+  {
+    "id": 326,
+    "subject": "Pharmacology",
+    "topic": "Endocrine",
+    "fact": "Sulfonylureas stimulate insulin release from pancreatic beta cells."
+  },
+  {
+    "id": 327,
+    "subject": "Pharmacology",
+    "topic": "Endocrine",
+    "fact": "SGLT2 inhibitors increase urinary glucose excretion."
+  },
+  {
+    "id": 328,
+    "subject": "Pharmacology",
+    "topic": "Endocrine",
+    "fact": "GLP-1 receptor agonists enhance glucose-dependent insulin secretion."
+  },
+  {
+    "id": 329,
+    "subject": "Pharmacology",
+    "topic": "Endocrine",
+    "fact": "Levothyroxine is synthetic thyroxine."
+  },
+  {
+    "id": 330,
+    "subject": "Pharmacology",
+    "topic": "Endocrine",
+    "fact": "Glucocorticoids have potent anti-inflammatory effects."
+  },
+  {
+    "id": 331,
+    "subject": "Pharmacology",
+    "topic": "Analgesics",
+    "fact": "NSAIDs inhibit cyclooxygenase enzymes."
+  },
+  {
+    "id": 332,
+    "subject": "Pharmacology",
+    "topic": "Analgesics",
+    "fact": "Paracetamol is an analgesic and antipyretic."
+  },
+  {
+    "id": 333,
+    "subject": "Pharmacology",
+    "topic": "Analgesics",
+    "fact": "Morphine is a mu-opioid receptor agonist."
+  },
+  {
+    "id": 334,
+    "subject": "Pharmacology",
+    "topic": "Anticoagulants",
+    "fact": "Heparin enhances antithrombin activity."
+  },
+  {
+    "id": 335,
+    "subject": "Pharmacology",
+    "topic": "Anticoagulants",
+    "fact": "Warfarin inhibits vitamin K recycling."
+  },
+  {
+    "id": 336,
+    "subject": "Pharmacology",
+    "topic": "Anticoagulants",
+    "fact": "Direct factor Xa inhibitors include apixaban and rivaroxaban."
+  },
+  {
+    "id": 337,
+    "subject": "Pharmacology",
+    "topic": "Respiratory",
+    "fact": "Short-acting beta-2 agonists rapidly relieve bronchospasm."
+  },
+  {
+    "id": 338,
+    "subject": "Pharmacology",
+    "topic": "Respiratory",
+    "fact": "Inhaled corticosteroids reduce airway inflammation in asthma."
+  },
+  {
+    "id": 339,
+    "subject": "Pharmacology",
+    "topic": "Respiratory",
+    "fact": "Ipratropium is an inhaled muscarinic antagonist."
+  },
+  {
+    "id": 340,
+    "subject": "Pharmacology",
+    "topic": "GI",
+    "fact": "Proton-pump inhibitors block the gastric H-K ATPase."
+  },
+  {
+    "id": 341,
+    "subject": "Pharmacology",
+    "topic": "GI",
+    "fact": "Ondansetron is a 5-HT3 receptor antagonist."
+  },
+  {
+    "id": 342,
+    "subject": "Pharmacology",
+    "topic": "GI",
+    "fact": "Metoclopramide has dopamine D2 antagonist activity."
+  },
+  {
+    "id": 343,
+    "subject": "Pharmacology",
+    "topic": "Anesthesia",
+    "fact": "Local anesthetics block voltage-gated sodium channels."
+  },
+  {
+    "id": 344,
+    "subject": "Pharmacology",
+    "topic": "Anesthesia",
+    "fact": "Propofol is a commonly used intravenous induction agent."
+  },
+  {
+    "id": 345,
+    "subject": "Pharmacology",
+    "topic": "Anesthesia",
+    "fact": "Ketamine is an NMDA receptor antagonist."
+  },
+  {
+    "id": 346,
+    "subject": "Pharmacology",
+    "topic": "Toxicology",
+    "fact": "Naloxone is an opioid receptor antagonist."
+  },
+  {
+    "id": 347,
+    "subject": "Pharmacology",
+    "topic": "Toxicology",
+    "fact": "N-acetylcysteine is used in paracetamol poisoning."
+  },
+  {
+    "id": 348,
+    "subject": "Pharmacology",
+    "topic": "Toxicology",
+    "fact": "Atropine is used to treat muscarinic manifestations of organophosphate poisoning."
+  },
+  {
+    "id": 349,
+    "subject": "Pharmacology",
+    "topic": "Hematology",
+    "fact": "Iron supplements are used to treat iron deficiency."
+  },
+  {
+    "id": 350,
+    "subject": "Pharmacology",
+    "topic": "Hematology",
+    "fact": "Folic acid corrects folate deficiency but does not treat B12-related neurologic injury."
+  },
+  {
+    "id": 351,
+    "subject": "Pharmacology",
+    "topic": "Immunology",
+    "fact": "Methotrexate inhibits dihydrofolate reductase and has immunomodulatory effects at low doses."
+  },
+  {
+    "id": 352,
+    "subject": "Pharmacology",
+    "topic": "Immunology",
+    "fact": "Azathioprine is converted to metabolites that inhibit purine synthesis."
+  },
+  {
+    "id": 353,
+    "subject": "Pharmacology",
+    "topic": "Oncology",
+    "fact": "Cyclophosphamide is an alkylating agent."
+  },
+  {
+    "id": 354,
+    "subject": "Pharmacology",
+    "topic": "Oncology",
+    "fact": "Methotrexate is an antimetabolite."
+  },
+  {
+    "id": 355,
+    "subject": "Pharmacology",
+    "topic": "Oncology",
+    "fact": "Tamoxifen is a selective estrogen receptor modulator."
+  },
+  {
+    "id": 356,
+    "subject": "Pharmacology",
+    "topic": "Oncology",
+    "fact": "Trastuzumab targets HER2."
+  },
+  {
+    "id": 357,
+    "subject": "Pharmacology",
+    "topic": "Dermatology",
+    "fact": "Isotretinoin is a systemic retinoid used for severe acne."
+  },
+  {
+    "id": 358,
+    "subject": "Pharmacology",
+    "topic": "Obstetrics",
+    "fact": "Oxytocin stimulates uterine contractions."
+  },
+  {
+    "id": 359,
+    "subject": "Pharmacology",
+    "topic": "Obstetrics",
+    "fact": "Magnesium sulfate is used for seizure prophylaxis and treatment in severe preeclampsia or eclampsia."
+  },
+  {
+    "id": 360,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Staphylococcus aureus is catalase-positive and coagulase-positive."
+  },
+  {
+    "id": 361,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Streptococcus pyogenes is a group A beta-hemolytic streptococcus."
+  },
+  {
+    "id": 362,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Streptococcus agalactiae is a group B streptococcus."
+  },
+  {
+    "id": 363,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Streptococcus pneumoniae is alpha-hemolytic and optochin-sensitive."
+  },
+  {
+    "id": 364,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Enterococcus species can grow in bile and high-salt environments."
+  },
+  {
+    "id": 365,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Mycobacteria are acid-fast because of mycolic acids."
+  },
+  {
+    "id": 366,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Clostridium tetani produces a toxin that blocks inhibitory neurotransmitter release."
+  },
+  {
+    "id": 367,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Clostridium botulinum toxin blocks acetylcholine release."
+  },
+  {
+    "id": 368,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Clostridioides difficile can cause antibiotic-associated colitis."
+  },
+  {
+    "id": 369,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Escherichia coli is a common cause of urinary tract infection."
+  },
+  {
+    "id": 370,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Klebsiella pneumoniae has a prominent polysaccharide capsule."
+  },
+  {
+    "id": 371,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Pseudomonas aeruginosa is an oxidase-positive nonfermenting gram-negative rod."
+  },
+  {
+    "id": 372,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Neisseria gonorrhoeae is a gram-negative diplococcus."
+  },
+  {
+    "id": 373,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Neisseria meningitidis can cause meningitis and meningococcemia."
+  },
+  {
+    "id": 374,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Haemophilus influenzae requires factors X and V for growth."
+  },
+  {
+    "id": 375,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Bordetella pertussis causes whooping cough."
+  },
+  {
+    "id": 376,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Corynebacterium diphtheriae can produce a toxin that inhibits protein synthesis."
+  },
+  {
+    "id": 377,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Vibrio cholerae causes secretory diarrhea through cholera toxin."
+  },
+  {
+    "id": 378,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Salmonella Typhi causes typhoid fever."
+  },
+  {
+    "id": 379,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Shigella species can cause dysentery."
+  },
+  {
+    "id": 380,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Influenza viruses have segmented RNA genomes."
+  },
+  {
+    "id": 381,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "HIV primarily infects CD4-positive cells."
+  },
+  {
+    "id": 382,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Hepatitis B virus is a partially double-stranded DNA virus."
+  },
+  {
+    "id": 383,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Hepatitis C virus is an RNA virus."
+  },
+  {
+    "id": 384,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Hepatitis A virus is transmitted mainly by the fecal-oral route."
+  },
+  {
+    "id": 385,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Rabies virus typically reaches the CNS by retrograde axonal transport."
+  },
+  {
+    "id": 386,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Herpes simplex viruses establish latency in sensory ganglia."
+  },
+  {
+    "id": 387,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Varicella-zoster virus becomes latent after chickenpox."
+  },
+  {
+    "id": 388,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Epstein-Barr virus infects B lymphocytes through CD21."
+  },
+  {
+    "id": 389,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Cytomegalovirus can cause congenital infection."
+  },
+  {
+    "id": 390,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Rotavirus is an important cause of acute gastroenteritis in children."
+  },
+  {
+    "id": 391,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Norovirus is a common cause of outbreaks of acute gastroenteritis."
+  },
+  {
+    "id": 392,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Human papillomavirus infection is associated with cervical cancer."
+  },
+  {
+    "id": 393,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Measles virus can cause cough, coryza, conjunctivitis, and rash."
+  },
+  {
+    "id": 394,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Mumps virus can cause parotitis and orchitis."
+  },
+  {
+    "id": 395,
+    "subject": "Microbiology",
+    "topic": "Virology",
+    "fact": "Poliovirus can damage anterior horn motor neurons."
+  },
+  {
+    "id": 396,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Malaria is transmitted by female Anopheles mosquitoes."
+  },
+  {
+    "id": 397,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Plasmodium falciparum can cause severe malaria."
+  },
+  {
+    "id": 398,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Plasmodium vivax can form dormant liver hypnozoites."
+  },
+  {
+    "id": 399,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Entamoeba histolytica can cause amoebic dysentery."
+  },
+  {
+    "id": 400,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Giardia can cause malabsorption and foul-smelling diarrhea."
+  },
+  {
+    "id": 401,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Taenia solium can cause cysticercosis."
+  },
+  {
+    "id": 402,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Echinococcus can form hydatid cysts."
+  },
+  {
+    "id": 403,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Ascaris lumbricoides is a large intestinal roundworm."
+  },
+  {
+    "id": 404,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Enterobius vermicularis commonly causes perianal itching."
+  },
+  {
+    "id": 405,
+    "subject": "Microbiology",
+    "topic": "Parasitology",
+    "fact": "Schistosoma species are blood flukes."
+  },
+  {
+    "id": 406,
+    "subject": "Microbiology",
+    "topic": "Mycology",
+    "fact": "Candida albicans can form pseudohyphae and germ tubes."
+  },
+  {
+    "id": 407,
+    "subject": "Microbiology",
+    "topic": "Mycology",
+    "fact": "Aspergillus commonly shows septate hyphae with acute-angle branching."
+  },
+  {
+    "id": 408,
+    "subject": "Microbiology",
+    "topic": "Mycology",
+    "fact": "Mucorales typically show broad, pauciseptate hyphae with wide-angle branching."
+  },
+  {
+    "id": 409,
+    "subject": "Microbiology",
+    "topic": "Mycology",
+    "fact": "Cryptococcus has a prominent polysaccharide capsule."
+  },
+  {
+    "id": 410,
+    "subject": "Microbiology",
+    "topic": "Mycology",
+    "fact": "Dermatophytes infect keratinized tissues."
+  },
+  {
+    "id": 411,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "IgM is usually the first antibody class produced in a primary response."
+  },
+  {
+    "id": 412,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "IgG is the most abundant immunoglobulin in serum."
+  },
+  {
+    "id": 413,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "IgA is important in mucosal immunity."
+  },
+  {
+    "id": 414,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "IgE is involved in immediate hypersensitivity and defense against helminths."
+  },
+  {
+    "id": 415,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "Complement can promote opsonization, inflammation, and cell lysis."
+  },
+  {
+    "id": 416,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "MHC class I molecules present peptides to CD8-positive T cells."
+  },
+  {
+    "id": 417,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "MHC class II molecules present peptides to CD4-positive T cells."
+  },
+  {
+    "id": 418,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "Natural killer cells can kill target cells without prior antigen-specific sensitization."
+  },
+  {
+    "id": 419,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "B cells differentiate into plasma cells that secrete antibodies."
+  },
+  {
+    "id": 420,
+    "subject": "Microbiology",
+    "topic": "Immunology",
+    "fact": "T-helper cells coordinate many adaptive immune responses."
+  },
+  {
+    "id": 421,
+    "subject": "Microbiology",
+    "topic": "Sterilization",
+    "fact": "Autoclaving uses pressurized steam for sterilization."
+  },
+  {
+    "id": 422,
+    "subject": "Microbiology",
+    "topic": "Sterilization",
+    "fact": "Dry heat can sterilize suitable heat-stable materials."
+  },
+  {
+    "id": 423,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Gram-positive bacteria retain crystal violet during Gram staining."
+  },
+  {
+    "id": 424,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Gram-negative bacteria have an outer membrane containing lipopolysaccharide."
+  },
+  {
+    "id": 425,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Endospores are produced by certain bacteria including Bacillus and Clostridium."
+  },
+  {
+    "id": 426,
+    "subject": "Microbiology",
+    "topic": "Bacteriology",
+    "fact": "Biofilms can increase microbial resistance to host defenses and antimicrobials."
+  },
+  {
+    "id": 427,
+    "subject": "Microbiology",
+    "topic": "Diagnostics",
+    "fact": "Culture identifies viable microorganisms by growth."
+  },
+  {
+    "id": 428,
+    "subject": "Microbiology",
+    "topic": "Diagnostics",
+    "fact": "PCR amplifies specific nucleic-acid sequences."
+  },
+  {
+    "id": 429,
+    "subject": "Microbiology",
+    "topic": "Diagnostics",
+    "fact": "Serology detects antibodies or antigens in blood."
+  },
+  {
+    "id": 430,
+    "subject": "Community Medicine",
+    "topic": "Epidemiology",
+    "fact": "Incidence measures new cases over a specified period."
+  },
+  {
+    "id": 431,
+    "subject": "Community Medicine",
+    "topic": "Epidemiology",
+    "fact": "Prevalence measures existing cases in a population."
+  },
+  {
+    "id": 432,
+    "subject": "Community Medicine",
+    "topic": "Screening",
+    "fact": "Sensitivity is the proportion of true positives correctly identified."
+  },
+  {
+    "id": 433,
+    "subject": "Community Medicine",
+    "topic": "Screening",
+    "fact": "Specificity is the proportion of true negatives correctly identified."
+  },
+  {
+    "id": 434,
+    "subject": "Community Medicine",
+    "topic": "Screening",
+    "fact": "Positive predictive value generally rises as disease prevalence rises."
+  },
+  {
+    "id": 435,
+    "subject": "Community Medicine",
+    "topic": "Screening",
+    "fact": "Negative predictive value generally rises as disease prevalence falls."
+  },
+  {
+    "id": 436,
+    "subject": "Community Medicine",
+    "topic": "Biostatistics",
+    "fact": "The mean is sensitive to extreme values."
+  },
+  {
+    "id": 437,
+    "subject": "Community Medicine",
+    "topic": "Biostatistics",
+    "fact": "The median is less affected by outliers than the mean."
+  },
+  {
+    "id": 438,
+    "subject": "Community Medicine",
+    "topic": "Biostatistics",
+    "fact": "Standard deviation describes spread around the mean."
+  },
+  {
+    "id": 439,
+    "subject": "Community Medicine",
+    "topic": "Biostatistics",
+    "fact": "A confidence interval expresses statistical uncertainty around an estimate."
+  },
+  {
+    "id": 440,
+    "subject": "Community Medicine",
+    "topic": "Study design",
+    "fact": "Randomized controlled trials use random allocation."
+  },
+  {
+    "id": 441,
+    "subject": "Community Medicine",
+    "topic": "Study design",
+    "fact": "Case-control studies begin with outcome status."
+  },
+  {
+    "id": 442,
+    "subject": "Community Medicine",
+    "topic": "Study design",
+    "fact": "Cohort studies begin with exposure status."
+  },
+  {
+    "id": 443,
+    "subject": "Community Medicine",
+    "topic": "Study design",
+    "fact": "Cross-sectional studies assess exposure and outcome at one point or period."
+  },
+  {
+    "id": 444,
+    "subject": "Community Medicine",
+    "topic": "Prevention",
+    "fact": "Primary prevention aims to prevent disease before it occurs."
+  },
+  {
+    "id": 445,
+    "subject": "Community Medicine",
+    "topic": "Prevention",
+    "fact": "Secondary prevention focuses on early detection and treatment."
+  },
+  {
+    "id": 446,
+    "subject": "Community Medicine",
+    "topic": "Prevention",
+    "fact": "Tertiary prevention aims to reduce disability and complications."
+  },
+  {
+    "id": 447,
+    "subject": "Community Medicine",
+    "topic": "Vaccination",
+    "fact": "Vaccination can protect individuals and reduce transmission."
+  },
+  {
+    "id": 448,
+    "subject": "Community Medicine",
+    "topic": "Epidemiology",
+    "fact": "Relative risk compares risk between exposed and unexposed groups."
+  },
+  {
+    "id": 449,
+    "subject": "Community Medicine",
+    "topic": "Epidemiology",
+    "fact": "Odds ratios are commonly used in case-control studies."
+  },
+  {
+    "id": 450,
+    "subject": "Community Medicine",
+    "topic": "Bias",
+    "fact": "Selection bias occurs when participation is related to exposure or outcome."
+  },
+  {
+    "id": 451,
+    "subject": "Community Medicine",
+    "topic": "Bias",
+    "fact": "Recall bias can affect studies relying on memory of past exposures."
+  },
+  {
+    "id": 452,
+    "subject": "Community Medicine",
+    "topic": "Confounding",
+    "fact": "A confounder is associated with both exposure and outcome."
+  },
+  {
+    "id": 453,
+    "subject": "Community Medicine",
+    "topic": "Nutrition",
+    "fact": "BMI is weight in kilograms divided by height in meters squared."
+  },
+  {
+    "id": 454,
+    "subject": "Community Medicine",
+    "topic": "Maternal health",
+    "fact": "Antenatal care helps identify and manage pregnancy-related risks."
+  },
+  {
+    "id": 455,
+    "subject": "Community Medicine",
+    "topic": "Child health",
+    "fact": "Growth monitoring can help identify growth faltering."
+  },
+  {
+    "id": 456,
+    "subject": "Community Medicine",
+    "topic": "Demography",
+    "fact": "Infant mortality rate measures deaths under age one per thousand live births."
+  },
+  {
+    "id": 457,
+    "subject": "Community Medicine",
+    "topic": "Occupational health",
+    "fact": "Occupational hazards may be physical, chemical, biological, ergonomic, or psychosocial."
+  },
+  {
+    "id": 458,
+    "subject": "Community Medicine",
+    "topic": "Environmental health",
+    "fact": "Safe water and sanitation are major determinants of health."
+  },
+  {
+    "id": 459,
+    "subject": "Community Medicine",
+    "topic": "Public health",
+    "fact": "Surveillance is the ongoing systematic collection and analysis of health data."
+  },
+  {
+    "id": 460,
+    "subject": "Community Medicine",
+    "topic": "Public health",
+    "fact": "Outbreak investigation begins with confirming the diagnosis and existence of an outbreak."
+  },
+  {
+    "id": 461,
+    "subject": "Community Medicine",
+    "topic": "Public health",
+    "fact": "Contact tracing helps identify people exposed to certain communicable diseases."
+  },
+  {
+    "id": 462,
+    "subject": "Community Medicine",
+    "topic": "Health education",
+    "fact": "Health education aims to improve knowledge and support healthier behavior."
+  },
+  {
+    "id": 463,
+    "subject": "Community Medicine",
+    "topic": "Epidemiology",
+    "fact": "The basic reproduction number describes transmission potential in a fully susceptible population."
+  },
+  {
+    "id": 464,
+    "subject": "Community Medicine",
+    "topic": "Epidemiology",
+    "fact": "Attack rate is a form of cumulative incidence used commonly during outbreaks."
+  },
+  {
+    "id": 465,
+    "subject": "Medicine",
+    "topic": "Cardiology",
+    "fact": "Atrial fibrillation produces an irregularly irregular rhythm."
+  },
+  {
+    "id": 466,
+    "subject": "Medicine",
+    "topic": "Cardiology",
+    "fact": "ST-segment elevation can indicate acute transmural myocardial injury."
+  },
+  {
+    "id": 467,
+    "subject": "Medicine",
+    "topic": "Cardiology",
+    "fact": "Heart failure can cause pulmonary and systemic congestion."
+  },
+  {
+    "id": 468,
+    "subject": "Medicine",
+    "topic": "Cardiology",
+    "fact": "Aortic stenosis classically causes exertional dyspnea, angina, and syncope."
+  },
+  {
+    "id": 469,
+    "subject": "Medicine",
+    "topic": "Cardiology",
+    "fact": "Mitral stenosis is commonly associated with rheumatic heart disease."
+  },
+  {
+    "id": 470,
+    "subject": "Medicine",
+    "topic": "Cardiology",
+    "fact": "Pericarditis can cause pleuritic chest pain relieved by sitting forward."
+  },
+  {
+    "id": 471,
+    "subject": "Medicine",
+    "topic": "Cardiology",
+    "fact": "Cardiac tamponade impairs ventricular filling."
+  },
+  {
+    "id": 472,
+    "subject": "Medicine",
+    "topic": "Cardiology",
+    "fact": "Hypertension is a major risk factor for stroke, heart disease, and kidney disease."
+  },
+  {
+    "id": 473,
+    "subject": "Medicine",
+    "topic": "Respiratory",
+    "fact": "Asthma causes variable airflow obstruction and airway hyperresponsiveness."
+  },
+  {
+    "id": 474,
+    "subject": "Medicine",
+    "topic": "Respiratory",
+    "fact": "COPD causes persistent airflow limitation."
+  },
+  {
+    "id": 475,
+    "subject": "Medicine",
+    "topic": "Respiratory",
+    "fact": "Pneumonia commonly presents with fever, cough, and respiratory symptoms."
+  },
+  {
+    "id": 476,
+    "subject": "Medicine",
+    "topic": "Respiratory",
+    "fact": "Pulmonary embolism can present with sudden dyspnea and pleuritic chest pain."
+  },
+  {
+    "id": 477,
+    "subject": "Medicine",
+    "topic": "Respiratory",
+    "fact": "Pleural effusion can reduce breath sounds over the affected area."
+  },
+  {
+    "id": 478,
+    "subject": "Medicine",
+    "topic": "Respiratory",
+    "fact": "Pneumothorax can cause sudden chest pain and breathlessness."
+  },
+  {
+    "id": 479,
+    "subject": "Medicine",
+    "topic": "Endocrinology",
+    "fact": "Type 1 diabetes results from autoimmune destruction of pancreatic beta cells."
+  },
+  {
+    "id": 480,
+    "subject": "Medicine",
+    "topic": "Endocrinology",
+    "fact": "Type 2 diabetes involves insulin resistance with relative insulin deficiency."
+  },
+  {
+    "id": 481,
+    "subject": "Medicine",
+    "topic": "Endocrinology",
+    "fact": "Primary hypothyroidism usually causes elevated TSH with low free thyroxine."
+  },
+  {
+    "id": 482,
+    "subject": "Medicine",
+    "topic": "Endocrinology",
+    "fact": "Hyperthyroidism can cause weight loss, tremor, and tachycardia."
+  },
+  {
+    "id": 483,
+    "subject": "Medicine",
+    "topic": "Endocrinology",
+    "fact": "Primary adrenal insufficiency can cause hypotension and hyperpigmentation."
+  },
+  {
+    "id": 484,
+    "subject": "Medicine",
+    "topic": "Endocrinology",
+    "fact": "Cushing syndrome results from chronic glucocorticoid excess."
+  },
+  {
+    "id": 485,
+    "subject": "Medicine",
+    "topic": "Gastroenterology",
+    "fact": "Portal hypertension can cause varices, splenomegaly, and ascites."
+  },
+  {
+    "id": 486,
+    "subject": "Medicine",
+    "topic": "Gastroenterology",
+    "fact": "Upper GI bleeding can present with hematemesis or melena."
+  },
+  {
+    "id": 487,
+    "subject": "Medicine",
+    "topic": "Gastroenterology",
+    "fact": "Pancreatitis commonly causes severe epigastric pain radiating to the back."
+  },
+  {
+    "id": 488,
+    "subject": "Medicine",
+    "topic": "Gastroenterology",
+    "fact": "Celiac disease is an immune-mediated enteropathy triggered by gluten."
+  },
+  {
+    "id": 489,
+    "subject": "Medicine",
+    "topic": "Gastroenterology",
+    "fact": "Hepatic encephalopathy can occur in severe liver dysfunction."
+  },
+  {
+    "id": 490,
+    "subject": "Medicine",
+    "topic": "Neurology",
+    "fact": "Upper motor neuron lesions commonly cause weakness with increased tone and reflexes."
+  },
+  {
+    "id": 491,
+    "subject": "Medicine",
+    "topic": "Neurology",
+    "fact": "Lower motor neuron lesions commonly cause weakness with reduced tone and reflexes."
+  },
+  {
+    "id": 492,
+    "subject": "Medicine",
+    "topic": "Neurology",
+    "fact": "Stroke causes sudden focal neurologic deficits."
+  },
+  {
+    "id": 493,
+    "subject": "Medicine",
+    "topic": "Neurology",
+    "fact": "Parkinson disease is characterized by bradykinesia with rigidity and/or tremor."
+  },
+  {
+    "id": 494,
+    "subject": "Medicine",
+    "topic": "Neurology",
+    "fact": "Myasthenia gravis causes fatigable weakness due to impaired neuromuscular transmission."
+  },
+  {
+    "id": 495,
+    "subject": "Medicine",
+    "topic": "Neurology",
+    "fact": "Guillain-Barre syndrome often causes ascending weakness and areflexia."
+  },
+  {
+    "id": 496,
+    "subject": "Medicine",
+    "topic": "Neurology",
+    "fact": "Meningitis can present with fever, headache, neck stiffness, and altered mental status."
+  },
+  {
+    "id": 497,
+    "subject": "Medicine",
+    "topic": "Rheumatology",
+    "fact": "Rheumatoid arthritis commonly affects small joints symmetrically."
+  },
+  {
+    "id": 498,
+    "subject": "Medicine",
+    "topic": "Rheumatology",
+    "fact": "Gout results from monosodium urate crystal deposition."
+  },
+  {
+    "id": 499,
+    "subject": "Medicine",
+    "topic": "Rheumatology",
+    "fact": "Systemic lupus erythematosus can affect multiple organ systems."
+  },
+  {
+    "id": 500,
+    "subject": "Medicine",
+    "topic": "Renal",
+    "fact": "Acute kidney injury is a sudden decline in renal function."
+  },
+  {
+    "id": 501,
+    "subject": "Medicine",
+    "topic": "Renal",
+    "fact": "Chronic kidney disease is persistent kidney damage or reduced kidney function."
+  },
+  {
+    "id": 502,
+    "subject": "Medicine",
+    "topic": "Renal",
+    "fact": "Nephrotic syndrome causes heavy proteinuria and edema."
+  },
+  {
+    "id": 503,
+    "subject": "Medicine",
+    "topic": "Renal",
+    "fact": "Nephritic syndrome commonly causes hematuria and hypertension."
+  },
+  {
+    "id": 504,
+    "subject": "Medicine",
+    "topic": "Hematology",
+    "fact": "Iron deficiency is a common cause of microcytic anemia."
+  },
+  {
+    "id": 505,
+    "subject": "Medicine",
+    "topic": "Hematology",
+    "fact": "Hemolysis can raise unconjugated bilirubin."
+  },
+  {
+    "id": 506,
+    "subject": "Medicine",
+    "topic": "Hematology",
+    "fact": "Vitamin B12 deficiency can produce neurologic symptoms."
+  },
+  {
+    "id": 507,
+    "subject": "Medicine",
+    "topic": "Hematology",
+    "fact": "Thrombocytopenia increases bleeding risk when severe."
+  },
+  {
+    "id": 508,
+    "subject": "Medicine",
+    "topic": "Infectious disease",
+    "fact": "Sepsis is life-threatening organ dysfunction caused by a dysregulated response to infection."
+  },
+  {
+    "id": 509,
+    "subject": "Medicine",
+    "topic": "Infectious disease",
+    "fact": "Tuberculosis commonly affects the lungs but can involve almost any organ."
+  },
+  {
+    "id": 510,
+    "subject": "Medicine",
+    "topic": "Infectious disease",
+    "fact": "Dengue can cause fever, myalgia, thrombocytopenia, and plasma leakage in severe cases."
+  },
+  {
+    "id": 511,
+    "subject": "Medicine",
+    "topic": "Electrolytes",
+    "fact": "Severe hyponatremia can cause neurologic symptoms."
+  },
+  {
+    "id": 512,
+    "subject": "Medicine",
+    "topic": "Electrolytes",
+    "fact": "Hyperkalemia can cause dangerous cardiac conduction abnormalities."
+  },
+  {
+    "id": 513,
+    "subject": "Medicine",
+    "topic": "Electrolytes",
+    "fact": "Hypokalemia can cause muscle weakness and arrhythmias."
+  },
+  {
+    "id": 514,
+    "subject": "Medicine",
+    "topic": "Acid-base",
+    "fact": "Diabetic ketoacidosis causes high-anion-gap metabolic acidosis."
+  },
+  {
+    "id": 515,
+    "subject": "Medicine",
+    "topic": "Dermatology",
+    "fact": "Erythema nodosum presents as tender subcutaneous nodules, usually on the shins."
+  },
+  {
+    "id": 516,
+    "subject": "Medicine",
+    "topic": "Geriatrics",
+    "fact": "Delirium is an acute fluctuating disturbance of attention and cognition."
+  },
+  {
+    "id": 517,
+    "subject": "Medicine",
+    "topic": "Nutrition",
+    "fact": "Severe malnutrition can impair immunity and wound healing."
+  },
+  {
+    "id": 518,
+    "subject": "Medicine",
+    "topic": "Emergency",
+    "fact": "Anaphylaxis can rapidly compromise airway, breathing, and circulation."
+  },
+  {
+    "id": 519,
+    "subject": "Medicine",
+    "topic": "Toxicology",
+    "fact": "Carbon monoxide poisoning reduces oxygen delivery by binding hemoglobin with high affinity."
+  },
+  {
+    "id": 520,
+    "subject": "Surgery",
+    "topic": "General surgery",
+    "fact": "A strangulated hernia has compromised blood supply."
+  },
+  {
+    "id": 521,
+    "subject": "Surgery",
+    "topic": "Abdomen",
+    "fact": "Appendicitis classically begins with periumbilical pain that migrates to the right lower quadrant."
+  },
+  {
+    "id": 522,
+    "subject": "Surgery",
+    "topic": "Hepatobiliary",
+    "fact": "Gallstones can obstruct the cystic duct and cause acute cholecystitis."
+  },
+  {
+    "id": 523,
+    "subject": "Surgery",
+    "topic": "Breast",
+    "fact": "Most breast lymphatic drainage is to the axillary lymph nodes."
+  },
+  {
+    "id": 524,
+    "subject": "Surgery",
+    "topic": "Thyroid",
+    "fact": "The recurrent laryngeal nerve is at risk during thyroid surgery."
+  },
+  {
+    "id": 525,
+    "subject": "Surgery",
+    "topic": "Trauma",
+    "fact": "Primary trauma assessment follows airway, breathing, circulation, disability, and exposure."
+  },
+  {
+    "id": 526,
+    "subject": "Surgery",
+    "topic": "Vascular",
+    "fact": "Acute limb ischemia classically presents with the six Ps."
+  },
+  {
+    "id": 527,
+    "subject": "Surgery",
+    "topic": "Urology",
+    "fact": "Ureteric stones can cause severe colicky flank pain radiating to the groin."
+  },
+  {
+    "id": 528,
+    "subject": "Surgery",
+    "topic": "Burns",
+    "fact": "Burn severity depends on depth and total body surface area."
+  },
+  {
+    "id": 529,
+    "subject": "Surgery",
+    "topic": "Wounds",
+    "fact": "Primary intention healing occurs when wound edges are closely approximated."
+  },
+  {
+    "id": 530,
+    "subject": "Surgery",
+    "topic": "Abdomen",
+    "fact": "Intestinal obstruction can cause pain, vomiting, distension, and constipation."
+  },
+  {
+    "id": 531,
+    "subject": "Surgery",
+    "topic": "Abdomen",
+    "fact": "Peritonitis can produce guarding and rebound tenderness."
+  },
+  {
+    "id": 532,
+    "subject": "Surgery",
+    "topic": "Hernia",
+    "fact": "An indirect inguinal hernia passes through the deep inguinal ring."
+  },
+  {
+    "id": 533,
+    "subject": "Surgery",
+    "topic": "Hernia",
+    "fact": "A direct inguinal hernia protrudes through Hesselbach triangle."
+  },
+  {
+    "id": 534,
+    "subject": "Surgery",
+    "topic": "Vascular",
+    "fact": "Varicose veins result from superficial venous valve incompetence."
+  },
+  {
+    "id": 535,
+    "subject": "Surgery",
+    "topic": "Urology",
+    "fact": "Benign prostatic hyperplasia can cause lower urinary tract symptoms."
+  },
+  {
+    "id": 536,
+    "subject": "Surgery",
+    "topic": "Breast",
+    "fact": "A breast lump is commonly assessed with examination, imaging, and tissue diagnosis when indicated."
+  },
+  {
+    "id": 537,
+    "subject": "Surgery",
+    "topic": "Oncology",
+    "fact": "Clear surgical margins are important in many cancer resections."
+  },
+  {
+    "id": 538,
+    "subject": "Surgery",
+    "topic": "Trauma",
+    "fact": "Tension pneumothorax requires urgent decompression."
+  },
+  {
+    "id": 539,
+    "subject": "Surgery",
+    "topic": "Trauma",
+    "fact": "Hemorrhagic shock results from significant blood loss."
+  },
+  {
+    "id": 540,
+    "subject": "Surgery",
+    "topic": "Wound healing",
+    "fact": "Infection delays wound healing."
+  },
+  {
+    "id": 541,
+    "subject": "Surgery",
+    "topic": "Abdomen",
+    "fact": "Acute pancreatitis can cause severe epigastric pain and systemic inflammation."
+  },
+  {
+    "id": 542,
+    "subject": "Surgery",
+    "topic": "Hepatobiliary",
+    "fact": "Obstructive jaundice can cause pale stools and dark urine."
+  },
+  {
+    "id": 543,
+    "subject": "Surgery",
+    "topic": "Colorectal",
+    "fact": "Rectal bleeding warrants evaluation because causes range from benign to malignant."
+  },
+  {
+    "id": 544,
+    "subject": "Surgery",
+    "topic": "Vascular",
+    "fact": "Deep vein thrombosis can lead to pulmonary embolism."
+  },
+  {
+    "id": 545,
+    "subject": "Surgery",
+    "topic": "Urology",
+    "fact": "Testicular torsion is a surgical emergency."
+  },
+  {
+    "id": 546,
+    "subject": "Surgery",
+    "topic": "Orthopedic surgery",
+    "fact": "Compartment syndrome can threaten limb viability."
+  },
+  {
+    "id": 547,
+    "subject": "Surgery",
+    "topic": "Trauma",
+    "fact": "A flail chest involves fractures of multiple adjacent ribs in multiple places."
+  },
+  {
+    "id": 548,
+    "subject": "Surgery",
+    "topic": "Neurosurgery",
+    "fact": "Raised intracranial pressure can cause headache, vomiting, and altered consciousness."
+  },
+  {
+    "id": 549,
+    "subject": "Surgery",
+    "topic": "General surgery",
+    "fact": "Preoperative optimization reduces perioperative risk."
+  },
+  {
+    "id": 550,
+    "subject": "Surgery",
+    "topic": "GI",
+    "fact": "Perforated peptic ulcer can cause sudden severe abdominal pain."
+  },
+  {
+    "id": 551,
+    "subject": "Surgery",
+    "topic": "Colorectal",
+    "fact": "Colorectal cancer may present with altered bowel habits, bleeding, or anemia."
+  },
+  {
+    "id": 552,
+    "subject": "Surgery",
+    "topic": "Vascular",
+    "fact": "An abdominal aortic aneurysm is commonly defined by an aortic diameter of at least 3 cm."
+  },
+  {
+    "id": 553,
+    "subject": "Surgery",
+    "topic": "Urology",
+    "fact": "Acute urinary retention can cause painful bladder distension."
+  },
+  {
+    "id": 554,
+    "subject": "Surgery",
+    "topic": "Urology",
+    "fact": "Hydronephrosis is dilation of the renal collecting system due to urinary obstruction."
+  },
+  {
+    "id": 555,
+    "subject": "Surgery",
+    "topic": "Thyroid",
+    "fact": "Thyroid nodules are evaluated with clinical assessment, ultrasound, and selective biopsy."
+  },
+  {
+    "id": 556,
+    "subject": "Surgery",
+    "topic": "Breast",
+    "fact": "Peau d'orange can occur when breast cancer obstructs dermal lymphatics."
+  },
+  {
+    "id": 557,
+    "subject": "Surgery",
+    "topic": "Burns",
+    "fact": "Large burns can cause major fluid shifts and hypovolemic shock."
+  },
+  {
+    "id": 558,
+    "subject": "Surgery",
+    "topic": "Trauma",
+    "fact": "The spleen is a commonly injured solid organ in blunt abdominal trauma."
+  },
+  {
+    "id": 559,
+    "subject": "Surgery",
+    "topic": "Trauma",
+    "fact": "Pelvic fractures can cause life-threatening hemorrhage."
+  },
+  {
+    "id": 560,
+    "subject": "Surgery",
+    "topic": "Hepatobiliary",
+    "fact": "Ascending cholangitis can present with fever, jaundice, and right upper-quadrant pain."
+  },
+  {
+    "id": 561,
+    "subject": "Surgery",
+    "topic": "Colorectal",
+    "fact": "Volvulus is twisting of bowel around its mesentery."
+  },
+  {
+    "id": 562,
+    "subject": "Surgery",
+    "topic": "General surgery",
+    "fact": "A surgical drain removes fluid or air from a wound or body cavity."
+  },
+  {
+    "id": 563,
+    "subject": "Surgery",
+    "topic": "Wounds",
+    "fact": "Secondary intention healing occurs when a wound is left open to heal by granulation and contraction."
+  },
+  {
+    "id": 564,
+    "subject": "Surgery",
+    "topic": "Vascular",
+    "fact": "Chronic limb ischemia can cause claudication and nonhealing ulcers."
+  },
+  {
+    "id": 565,
+    "subject": "Pediatrics",
+    "topic": "Neonatology",
+    "fact": "Physiologic jaundice reflects increased bilirubin production and immature conjugation."
+  },
+  {
+    "id": 566,
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "fact": "Growth is best assessed using serial measurements on appropriate growth charts."
+  },
+  {
+    "id": 567,
+    "subject": "Pediatrics",
+    "topic": "Development",
+    "fact": "Development is assessed across gross motor, fine motor, language, and social domains."
+  },
+  {
+    "id": 568,
+    "subject": "Pediatrics",
+    "topic": "Respiratory",
+    "fact": "Bronchiolitis commonly affects infants and is often caused by RSV."
+  },
+  {
+    "id": 569,
+    "subject": "Pediatrics",
+    "topic": "Nutrition",
+    "fact": "Exclusive breastfeeding is recommended for about the first six months by major health organizations."
+  },
+  {
+    "id": 570,
+    "subject": "Pediatrics",
+    "topic": "Neonatology",
+    "fact": "Premature infants are at increased risk of respiratory distress syndrome."
+  },
+  {
+    "id": 571,
+    "subject": "Pediatrics",
+    "topic": "Neonatology",
+    "fact": "Apgar scoring assesses newborn condition shortly after birth."
+  },
+  {
+    "id": 572,
+    "subject": "Pediatrics",
+    "topic": "Infectious disease",
+    "fact": "Measles can cause fever, cough, coryza, conjunctivitis, and rash."
+  },
+  {
+    "id": 573,
+    "subject": "Pediatrics",
+    "topic": "Infectious disease",
+    "fact": "Pertussis can cause paroxysmal coughing spells."
+  },
+  {
+    "id": 574,
+    "subject": "Pediatrics",
+    "topic": "Gastroenterology",
+    "fact": "Acute gastroenteritis can cause dehydration rapidly in young children."
+  },
+  {
+    "id": 575,
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "fact": "A ventricular septal defect is a common congenital heart defect."
+  },
+  {
+    "id": 576,
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "fact": "Tetralogy of Fallot includes four characteristic structural abnormalities."
+  },
+  {
+    "id": 577,
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "fact": "Febrile seizures occur in young children with fever."
+  },
+  {
+    "id": 578,
+    "subject": "Pediatrics",
+    "topic": "Hematology",
+    "fact": "Iron deficiency can impair cognitive and physical development."
+  },
+  {
+    "id": 579,
+    "subject": "Pediatrics",
+    "topic": "Endocrinology",
+    "fact": "Congenital hypothyroidism can impair neurodevelopment if untreated."
+  },
+  {
+    "id": 580,
+    "subject": "Pediatrics",
+    "topic": "Emergency",
+    "fact": "Children can deteriorate quickly because of limited physiologic reserve."
+  },
+  {
+    "id": 581,
+    "subject": "Pediatrics",
+    "topic": "Nutrition",
+    "fact": "Vitamin D deficiency can cause rickets."
+  },
+  {
+    "id": 582,
+    "subject": "Pediatrics",
+    "topic": "Respiratory",
+    "fact": "Croup commonly causes a barking cough and inspiratory stridor."
+  },
+  {
+    "id": 583,
+    "subject": "Pediatrics",
+    "topic": "Renal",
+    "fact": "Nephrotic syndrome in children commonly presents with edema."
+  },
+  {
+    "id": 584,
+    "subject": "Pediatrics",
+    "topic": "Immunization",
+    "fact": "Routine immunization prevents many serious childhood infections."
+  },
+  {
+    "id": 585,
+    "subject": "Pediatrics",
+    "topic": "Neonatology",
+    "fact": "Neonatal sepsis may present with nonspecific signs such as poor feeding or temperature instability."
+  },
+  {
+    "id": 586,
+    "subject": "Pediatrics",
+    "topic": "Cardiology",
+    "fact": "Patent ductus arteriosus is persistence of the fetal connection between the pulmonary artery and aorta."
+  },
+  {
+    "id": 587,
+    "subject": "Pediatrics",
+    "topic": "GI",
+    "fact": "Intussusception can cause intermittent colicky pain and vomiting."
+  },
+  {
+    "id": 588,
+    "subject": "Pediatrics",
+    "topic": "GI",
+    "fact": "Hypertrophic pyloric stenosis classically causes projectile non-bilious vomiting."
+  },
+  {
+    "id": 589,
+    "subject": "Pediatrics",
+    "topic": "Neurology",
+    "fact": "Cerebral palsy describes permanent disorders of movement and posture due to nonprogressive brain injury."
+  },
+  {
+    "id": 590,
+    "subject": "Pediatrics",
+    "topic": "Genetics",
+    "fact": "Down syndrome is caused most commonly by trisomy 21."
+  },
+  {
+    "id": 591,
+    "subject": "Pediatrics",
+    "topic": "Respiratory",
+    "fact": "Foreign-body aspiration can cause sudden cough and unilateral wheeze."
+  },
+  {
+    "id": 592,
+    "subject": "Pediatrics",
+    "topic": "Hematology",
+    "fact": "Sickle cell disease can cause vaso-occlusive pain episodes."
+  },
+  {
+    "id": 593,
+    "subject": "Pediatrics",
+    "topic": "Emergency",
+    "fact": "Severe dehydration can cause tachycardia, poor perfusion, and altered mental status."
+  },
+  {
+    "id": 594,
+    "subject": "Pediatrics",
+    "topic": "Growth",
+    "fact": "Failure to thrive describes inadequate weight gain or growth relative to expected patterns."
+  },
+  {
+    "id": 595,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "hCG is produced mainly by syncytiotrophoblasts."
+  },
+  {
+    "id": 596,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "Preeclampsia occurs after 20 weeks with new hypertension and maternal organ involvement."
+  },
+  {
+    "id": 597,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Ovulation is triggered by the mid-cycle LH surge."
+  },
+  {
+    "id": 598,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "The ampulla is the most common site of ectopic pregnancy."
+  },
+  {
+    "id": 599,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Reproductive endocrinology",
+    "fact": "FSH stimulates granulosa cells."
+  },
+  {
+    "id": 600,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Reproductive endocrinology",
+    "fact": "LH stimulates theca cells."
+  },
+  {
+    "id": 601,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "The placenta facilitates exchange between maternal and fetal circulations."
+  },
+  {
+    "id": 602,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "Placenta previa can cause painless antepartum bleeding."
+  },
+  {
+    "id": 603,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "Placental abruption can cause painful bleeding with uterine tenderness."
+  },
+  {
+    "id": 604,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "Labor involves regular uterine contractions with progressive cervical change."
+  },
+  {
+    "id": 605,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "Postpartum hemorrhage is commonly caused by uterine atony."
+  },
+  {
+    "id": 606,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Endometriosis is the presence of endometrial-like tissue outside the uterus."
+  },
+  {
+    "id": 607,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Polycystic ovary syndrome commonly features ovulatory dysfunction and hyperandrogenism."
+  },
+  {
+    "id": 608,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Cervical cancer is strongly associated with persistent high-risk HPV infection."
+  },
+  {
+    "id": 609,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Uterine fibroids are benign smooth-muscle tumors."
+  },
+  {
+    "id": 610,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "Gestational diabetes develops during pregnancy in people not previously known to have diabetes."
+  },
+  {
+    "id": 611,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "Eclampsia is the occurrence of seizures in a patient with preeclampsia."
+  },
+  {
+    "id": 612,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Menopause is diagnosed after twelve months of amenorrhea without another cause."
+  },
+  {
+    "id": 613,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "Fetal heart-rate monitoring can provide information about fetal well-being during labor."
+  },
+  {
+    "id": 614,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Dysmenorrhea refers to painful menstruation."
+  },
+  {
+    "id": 615,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "The first stage of labor ends with full cervical dilatation."
+  },
+  {
+    "id": 616,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "The second stage of labor ends with delivery of the baby."
+  },
+  {
+    "id": 617,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "The third stage of labor ends with delivery of the placenta."
+  },
+  {
+    "id": 618,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Primary amenorrhea is absence of menarche by the expected age and requires evaluation."
+  },
+  {
+    "id": 619,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Postmenopausal bleeding requires evaluation for endometrial pathology."
+  },
+  {
+    "id": 620,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Ovarian torsion can cause sudden severe unilateral pelvic pain."
+  },
+  {
+    "id": 621,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "Combined oral contraceptives suppress ovulation mainly by inhibiting gonadotropin secretion."
+  },
+  {
+    "id": 622,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "Rh incompatibility can lead to hemolytic disease of the fetus and newborn."
+  },
+  {
+    "id": 623,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Obstetrics",
+    "fact": "A breech presentation means the fetal buttocks or feet present first."
+  },
+  {
+    "id": 624,
+    "subject": "Obstetrics & Gynecology",
+    "topic": "Gynecology",
+    "fact": "A Pap test screens for cervical precancerous changes."
+  },
+  {
+    "id": 625,
+    "subject": "ENT",
+    "topic": "Ear",
+    "fact": "The middle ear communicates with the nasopharynx through the auditory tube."
+  },
+  {
+    "id": 626,
+    "subject": "ENT",
+    "topic": "Ear",
+    "fact": "Conductive hearing loss involves impaired transmission through the external or middle ear."
+  },
+  {
+    "id": 627,
+    "subject": "ENT",
+    "topic": "Ear",
+    "fact": "Sensorineural hearing loss arises from the cochlea, auditory nerve, or central pathways."
+  },
+  {
+    "id": 628,
+    "subject": "ENT",
+    "topic": "Larynx",
+    "fact": "The recurrent laryngeal nerve supplies most intrinsic muscles of the larynx."
+  },
+  {
+    "id": 629,
+    "subject": "ENT",
+    "topic": "Nose",
+    "fact": "Kiesselbach area is a common source of anterior epistaxis."
+  },
+  {
+    "id": 630,
+    "subject": "ENT",
+    "topic": "Ear",
+    "fact": "The ossicles are the malleus, incus, and stapes."
+  },
+  {
+    "id": 631,
+    "subject": "ENT",
+    "topic": "Ear",
+    "fact": "The stapes footplate sits in the oval window."
+  },
+  {
+    "id": 632,
+    "subject": "ENT",
+    "topic": "Ear",
+    "fact": "Otitis media is inflammation or infection of the middle ear."
+  },
+  {
+    "id": 633,
+    "subject": "ENT",
+    "topic": "Ear",
+    "fact": "Vertigo can result from peripheral or central vestibular disorders."
+  },
+  {
+    "id": 634,
+    "subject": "ENT",
+    "topic": "Larynx",
+    "fact": "Persistent hoarseness warrants evaluation."
+  },
+  {
+    "id": 635,
+    "subject": "Ophthalmology",
+    "topic": "Anatomy",
+    "fact": "The optic nerve is cranial nerve II."
+  },
+  {
+    "id": 636,
+    "subject": "Ophthalmology",
+    "topic": "Glaucoma",
+    "fact": "Glaucoma is a progressive optic neuropathy often associated with elevated intraocular pressure."
+  },
+  {
+    "id": 637,
+    "subject": "Ophthalmology",
+    "topic": "Cataract",
+    "fact": "A cataract is an opacity of the crystalline lens."
+  },
+  {
+    "id": 638,
+    "subject": "Ophthalmology",
+    "topic": "Retina",
+    "fact": "The macula mediates high-acuity central vision."
+  },
+  {
+    "id": 639,
+    "subject": "Ophthalmology",
+    "topic": "Cornea",
+    "fact": "The cornea is normally avascular."
+  },
+  {
+    "id": 640,
+    "subject": "Ophthalmology",
+    "topic": "Pupil",
+    "fact": "Parasympathetic fibers constrict the pupil."
+  },
+  {
+    "id": 641,
+    "subject": "Ophthalmology",
+    "topic": "Pupil",
+    "fact": "Sympathetic fibers dilate the pupil."
+  },
+  {
+    "id": 642,
+    "subject": "Ophthalmology",
+    "topic": "Emergency",
+    "fact": "Acute angle-closure glaucoma can cause severe eye pain and visual disturbance."
+  },
+  {
+    "id": 643,
+    "subject": "Ophthalmology",
+    "topic": "Retina",
+    "fact": "Retinal detachment can present with flashes, floaters, and a curtain-like visual field defect."
+  },
+  {
+    "id": 644,
+    "subject": "Ophthalmology",
+    "topic": "Neuro-ophthalmology",
+    "fact": "Papilledema is optic-disc swelling due to raised intracranial pressure."
+  },
+  {
+    "id": 645,
+    "subject": "Dermatology",
+    "topic": "Skin",
+    "fact": "The epidermis is avascular."
+  },
+  {
+    "id": 646,
+    "subject": "Dermatology",
+    "topic": "Inflammatory disease",
+    "fact": "Psoriasis commonly forms well-demarcated plaques with silvery scale."
+  },
+  {
+    "id": 647,
+    "subject": "Dermatology",
+    "topic": "Pigmentation",
+    "fact": "Melanocytes produce melanin."
+  },
+  {
+    "id": 648,
+    "subject": "Dermatology",
+    "topic": "Acne",
+    "fact": "Acne involves follicular plugging, sebum, bacteria, and inflammation."
+  },
+  {
+    "id": 649,
+    "subject": "Dermatology",
+    "topic": "Eczema",
+    "fact": "Atopic dermatitis is associated with pruritus and skin-barrier dysfunction."
+  },
+  {
+    "id": 650,
+    "subject": "Dermatology",
+    "topic": "Autoimmune",
+    "fact": "Pemphigus vulgaris causes intraepidermal blistering."
+  },
+  {
+    "id": 651,
+    "subject": "Dermatology",
+    "topic": "Autoimmune",
+    "fact": "Bullous pemphigoid causes subepidermal blistering."
+  },
+  {
+    "id": 652,
+    "subject": "Dermatology",
+    "topic": "Cancer",
+    "fact": "Melanoma arises from melanocytes."
+  },
+  {
+    "id": 653,
+    "subject": "Dermatology",
+    "topic": "Cancer",
+    "fact": "Basal cell carcinoma is the most common skin cancer."
+  },
+  {
+    "id": 654,
+    "subject": "Psychiatry",
+    "topic": "Mood disorders",
+    "fact": "Major depressive episodes involve low mood or loss of interest with additional symptoms."
+  },
+  {
+    "id": 655,
+    "subject": "Psychiatry",
+    "topic": "Psychosis",
+    "fact": "Schizophrenia can involve positive, negative, and cognitive symptoms."
+  },
+  {
+    "id": 656,
+    "subject": "Psychiatry",
+    "topic": "Anxiety",
+    "fact": "Panic attacks are sudden episodes of intense fear."
+  },
+  {
+    "id": 657,
+    "subject": "Psychiatry",
+    "topic": "Mood disorders",
+    "fact": "Mania involves persistently elevated or irritable mood with increased energy."
+  },
+  {
+    "id": 658,
+    "subject": "Psychiatry",
+    "topic": "Anxiety",
+    "fact": "Generalized anxiety disorder involves excessive worry across multiple domains."
+  },
+  {
+    "id": 659,
+    "subject": "Psychiatry",
+    "topic": "OCD",
+    "fact": "Obsessive-compulsive disorder features obsessions, compulsions, or both."
+  },
+  {
+    "id": 660,
+    "subject": "Psychiatry",
+    "topic": "PTSD",
+    "fact": "Post-traumatic stress disorder can follow exposure to severe trauma."
+  },
+  {
+    "id": 661,
+    "subject": "Psychiatry",
+    "topic": "Neurocognitive",
+    "fact": "Dementia causes chronic decline in cognitive function."
+  },
+  {
+    "id": 662,
+    "subject": "Psychiatry",
+    "topic": "Sleep",
+    "fact": "Insomnia involves difficulty initiating or maintaining sleep or early awakening."
+  },
+  {
+    "id": 663,
+    "subject": "Radiology",
+    "topic": "X-ray",
+    "fact": "Air appears dark on plain radiographs."
+  },
+  {
+    "id": 664,
+    "subject": "Radiology",
+    "topic": "X-ray",
+    "fact": "Bone appears relatively white on plain radiographs."
+  },
+  {
+    "id": 665,
+    "subject": "Radiology",
+    "topic": "CT",
+    "fact": "CT uses X-rays to create cross-sectional images."
+  },
+  {
+    "id": 666,
+    "subject": "Radiology",
+    "topic": "MRI",
+    "fact": "MRI does not use ionizing radiation."
+  },
+  {
+    "id": 667,
+    "subject": "Radiology",
+    "topic": "Ultrasound",
+    "fact": "Ultrasound uses high-frequency sound waves."
+  },
+  {
+    "id": 668,
+    "subject": "Radiology",
+    "topic": "Ultrasound",
+    "fact": "Doppler ultrasound assesses blood flow."
+  },
+  {
+    "id": 669,
+    "subject": "Radiology",
+    "topic": "Chest imaging",
+    "fact": "Pleural effusion can blunt the costophrenic angle on chest radiography."
+  },
+  {
+    "id": 670,
+    "subject": "Radiology",
+    "topic": "Radiation safety",
+    "fact": "Children are more sensitive to ionizing radiation than adults."
+  },
+  {
+    "id": 671,
+    "subject": "Forensic Medicine",
+    "topic": "Identification",
+    "fact": "Fingerprints are highly individual."
+  },
+  {
+    "id": 672,
+    "subject": "Forensic Medicine",
+    "topic": "Documentation",
+    "fact": "Accurate contemporaneous documentation is important in medicolegal practice."
+  },
+  {
+    "id": 673,
+    "subject": "Forensic Medicine",
+    "topic": "Ethics",
+    "fact": "Valid consent requires capacity, adequate information, and voluntariness."
+  },
+  {
+    "id": 674,
+    "subject": "Forensic Medicine",
+    "topic": "Medicolegal",
+    "fact": "Chain of custody helps preserve the integrity of forensic evidence."
+  },
+  {
+    "id": 675,
+    "subject": "Forensic Medicine",
+    "topic": "Toxicology",
+    "fact": "A toxidrome is a recognizable pattern caused by a class of toxins."
+  },
+  {
+    "id": 676,
+    "subject": "Forensic Medicine",
+    "topic": "Identification",
+    "fact": "Dental records can aid personal identification."
+  },
+  {
+    "id": 677,
+    "subject": "Forensic Medicine",
+    "topic": "Identification",
+    "fact": "DNA profiling can support personal identification."
+  },
+  {
+    "id": 678,
+    "subject": "Forensic Medicine",
+    "topic": "Ethics",
+    "fact": "Patients with capacity can refuse treatment."
+  },
+  {
+    "id": 679,
+    "subject": "Orthopedics",
+    "topic": "Fractures",
+    "fact": "Fracture healing includes hematoma, callus formation, and remodeling."
+  },
+  {
+    "id": 680,
+    "subject": "Orthopedics",
+    "topic": "Hip",
+    "fact": "Intracapsular femoral-neck fractures can compromise blood supply to the femoral head."
+  },
+  {
+    "id": 681,
+    "subject": "Orthopedics",
+    "topic": "Spine",
+    "fact": "The intervertebral disc consists of annulus fibrosus and nucleus pulposus."
+  },
+  {
+    "id": 682,
+    "subject": "Orthopedics",
+    "topic": "Trauma",
+    "fact": "Open fractures have an increased risk of infection."
+  },
+  {
+    "id": 683,
+    "subject": "Orthopedics",
+    "topic": "Trauma",
+    "fact": "Compartment syndrome can cause severe pain and neurovascular compromise."
+  },
+  {
+    "id": 684,
+    "subject": "Orthopedics",
+    "topic": "Joint",
+    "fact": "Osteoarthritis involves degeneration of articular cartilage."
+  },
+  {
+    "id": 685,
+    "subject": "Orthopedics",
+    "topic": "Infection",
+    "fact": "Osteomyelitis is infection of bone."
+  },
+  {
+    "id": 686,
+    "subject": "Anesthesiology",
+    "topic": "Airway",
+    "fact": "Airway assessment helps predict difficult ventilation or intubation."
+  },
+  {
+    "id": 687,
+    "subject": "Anesthesiology",
+    "topic": "Monitoring",
+    "fact": "Pulse oximetry estimates arterial oxygen saturation."
+  },
+  {
+    "id": 688,
+    "subject": "Anesthesiology",
+    "topic": "Monitoring",
+    "fact": "Capnography measures exhaled carbon dioxide."
+  },
+  {
+    "id": 689,
+    "subject": "Anesthesiology",
+    "topic": "Regional anesthesia",
+    "fact": "Spinal anesthesia delivers local anesthetic into cerebrospinal fluid."
+  },
+  {
+    "id": 690,
+    "subject": "Anesthesiology",
+    "topic": "Regional anesthesia",
+    "fact": "Epidural anesthesia delivers drugs into the epidural space."
+  },
+  {
+    "id": 691,
+    "subject": "Anesthesiology",
+    "topic": "Complications",
+    "fact": "Malignant hyperthermia is a rare life-threatening anesthetic complication."
+  },
+  {
+    "id": 692,
+    "subject": "Anesthesiology",
+    "topic": "Pain",
+    "fact": "Multimodal analgesia combines different classes of pain treatment."
+  },
+  {
+    "id": 693,
+    "subject": "Anesthesiology",
+    "topic": "Recovery",
+    "fact": "Post-anesthesia monitoring focuses on airway, breathing, circulation, and consciousness."
+  },
+  {
+    "id": 694,
+    "subject": "Emergency Medicine",
+    "topic": "Resuscitation",
+    "fact": "High-quality chest compressions are central to CPR."
+  },
+  {
+    "id": 695,
+    "subject": "Emergency Medicine",
+    "topic": "Shock",
+    "fact": "Shock is a state of inadequate tissue perfusion."
+  },
+  {
+    "id": 696,
+    "subject": "Emergency Medicine",
+    "topic": "Airway",
+    "fact": "Airway obstruction is an immediate life threat."
+  },
+  {
+    "id": 697,
+    "subject": "Emergency Medicine",
+    "topic": "Cardiology",
+    "fact": "Defibrillation is used for shockable cardiac-arrest rhythms."
+  },
+  {
+    "id": 698,
+    "subject": "Emergency Medicine",
+    "topic": "Allergy",
+    "fact": "Anaphylaxis can cause airway, breathing, and circulatory compromise."
+  },
+  {
+    "id": 699,
+    "subject": "Emergency Medicine",
+    "topic": "Metabolic",
+    "fact": "Severe hypoglycemia can cause confusion, seizures, or coma."
+  }
 ]
